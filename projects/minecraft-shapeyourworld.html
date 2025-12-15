@@ -1,0 +1,2016 @@
+﻿<!DOCTYPE html><!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Thu Oct 23 2025 10:23:54 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.creativegiants.art" data-wf-page="6882bc8268ebcad9014473f2" data-wf-site="678fc13a6195245eefbb1f34" lang="en" data-wf-collection="6882bc8268ebcad9014473ee" data-wf-item-slug="minecraft-shapeyourworld"><head><meta charset="utf-8"><title>Minecraft #ShapeYourWorld | Interactive Cube Installation – Creative Giants</title><meta content="To mark Minecraft’s 15th birthday, Creative Giants built a 6×6m magnetic cube at Alexandra Palace. A collaborative public artwork and immersive event designed for maximum visual impact." name="description"><meta content="Minecraft #ShapeYourWorld | Interactive Cube Installation – Creative Giants" property="og:title"><meta content="To mark Minecraft’s 15th birthday, Creative Giants built a 6×6m magnetic cube at Alexandra Palace. A collaborative public artwork and immersive event designed for maximum visual impact." property="og:description"><meta content="" property="og:image"><meta content="Minecraft #ShapeYourWorld | Interactive Cube Installation – Creative Giants" property="twitter:title"><meta content="To mark Minecraft’s 15th birthday, Creative Giants built a 6×6m magnetic cube at Alexandra Palace. A collaborative public artwork and immersive event designed for maximum visual impact." property="twitter:description"><meta content="" property="twitter:image"><meta property="og:type" content="website"><meta content="summary_large_image" name="twitter:card"><meta content="width=device-width, initial-scale=1" name="viewport"><meta content="Webflow" name="generator"><link href="../678fc13a6195245eefbb1f34/css/creative-giants-f70328.webflow.shared.d2ad5863f.min.css" rel="stylesheet" type="text/css"><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="../678fc13a6195245eefbb1f34/6798ebee5604c4609f087c59_CG%20Favicon.jpg" rel="shortcut icon" type="image/x-icon"><link href="../678fc13a6195245eefbb1f34/6798ebf3d894f973aeed7190_CG%20Webclip.jpg" rel="apple-touch-icon"><script async="" src="../gtag/js?id=G-HT4NZC5Z02"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('set', 'developer_id.dZGVlNj', true);gtag('config', 'G-HT4NZC5Z02');</script><script>
+(function(global){global.pageFunctions=global.pageFunctions||{executed:{},functions:{},addFunction:function(id,fn){if(!this.functions[id])this.functions[id]=fn},executeFunctions:function(){if(this.added)return;this.added=true;for(const id in this.functions){if(!this.executed[id]){try{this.functions[id]();this.executed[id]=true}catch(e){console.error(`Error executing function ${id}:`,e)}}}}}})(window);
+</script>
+
+<style>
+.transition_wrap {
+	display: flex;
+}
+</style>
+
+
+
+<!-- Keep this css code to improve the font quality-->
+<style>
+  * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -o-font-smoothing: antialiased;
+  -webkit-appearance:none;
+}
+</style>
+
+<style>
+html.lenis {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+</style>
+
+<style>
+  
+  .split-text{
+  overflow: hidden !important;
+  }
+  .line-animation{
+  overflow: hidden !important;
+  }
+  
+  
+[js-line-animation] {
+	visibility: hidden;
+}
+
+.w--editor [js-line-animation] {
+	visibility: visible;
+}
+
+[js-line-animation] .line {
+	overflow: hidden;
+	overflow: hidden;
+  padding-bottom: 0.1em;
+  margin-bottom: -0.1em;
+  transform-origin: bottom;
+  vertical-align: top;
+}
+
+[data-fade] {
+	visibility: hidden;
+}
+
+.w--editor [data-fade] {
+	visibility: visible;
+}
+
+[data-fade-children] {
+	visibility: hidden;
+}
+
+.w--editor [data-fade-children] {
+	visibility: visible;
+}
+</style>
+
+
+<script src="../678fc13a6195245eefbb1f346544eda5f000985a163a868767af4f19b0bce7297b6c7deefinsweetcomponentsconfig-1.0.18.js" type="module" async="" siteid="678fc13a6195245eefbb1f34" finsweet="components"></script></head><body><div class="page-wrapper"><div class="global-styles w-embed"><style>
+
+/* Ensure all elements inherit the color from its parent */
+body * {
+    color: inherit;
+}
+
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-slider-arrow-left,
+.w-slider-arrow-right,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid #4d65ff;
+   outline-offset: 0.125rem;
+}
+
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+
+/* Prevent all click and hover interaction with an element */
+.pointer-events-off {
+	pointer-events: none;
+}
+
+/* Enables all click and hover interaction with an element */
+.pointer-events-on {
+  pointer-events: auto;
+}
+
+/* Create a class of .div-square which maintains a 1:1 dimension of a div */
+.div-square::after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+
+/* Make sure containers never lose their center alignment */
+.container-medium,.container-small, .container-large {
+	margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+
+@media screen and (max-width: 991px) {
+    .hide, .hide-tablet {
+        display: none !important;
+    }
+}
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+}
+  @media screen and (max-width: 479px) {
+    .hide-mobile{
+      display: none !important;
+    }
+}
+ 
+.margin-0 {
+  margin: 0rem !important;
+}
+  
+.padding-0 {
+  padding: 0rem !important;
+}
+
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+  
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+  
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+  
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+  
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+/* Apply "..." at 100% width */
+.truncate-width { 
+		width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+/* Removes native scrollbar */
+.no-scrollbar {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none; 
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+</style>
+
+
+
+<style>
+  html { font-size: calc(0.625rem + 0.41666666666666663vw); }
+  @media screen and (max-width:1920px) { html { font-size: calc(0.625rem + 0.41666666666666674vw); } }
+  @media screen and (max-width:1440px) { html { font-size: calc(0.5991091314031181rem + 0.4454342984409799vw); } }
+  @media screen and (max-width:991px) { html { font-size: calc(0.758056640625rem + 0.390625vw); } }
+  @media screen and (max-width:479px) { html { font-size: calc(0.7494769874476988rem + 0.8368200836820083vw); } }
+</style>
+
+<style>
+::selection {
+	background: var(--_brand---color);
+}
+</style>
+
+<style>
+/* Rectangle animation */
+.btn .btn__rect {
+  height: 0%;
+  width: 100%; /* Adjust width as needed */
+  background-color: var(--_brand---color); /* Or any desired color */
+  transition: height 0.7s cubic-bezier(0.625, 0.05, 0, 1);
+  overflow: hidden;
+}
+
+.btn:hover .btn__rect {
+  height: 100%;
+}
+
+/* Icon wrap animation */
+.btn.is-icon .btn__icon-wrap {
+  transition: background-color 0.6s cubic-bezier(0.25, 0.1, 0.25, 1),
+              color 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.btn.is-icon:hover .btn__icon-wrap {
+  background-color: var(--brand--black);
+  color: var(--_brand---color);
+}
+
+/* Secondary button styling */
+.btn.is-icon.Secondary:hover .btn__icon-wrap {
+  background-color: var(--brand--black);
+  color: var(--_brand---color);
+}
+
+/* Tertiary button override */
+.btn.is-icon.Tertiary:hover .btn__icon-wrap {
+  background-color: var(--brand--white) !important;
+  color: var(--_brand---color) !important;
+}
+</style>
+
+
+
+
+<style>
+
+.underline-link::before,
+.underline-link.is--alt::before,
+.underline-link.is--alt::after{
+  content: "";
+  position: absolute;
+  bottom: 0em;
+  left: 0;
+  width: 100%;
+  height: 0.0625em;
+  background-color: var(--_theme---text-color--text-secondary);
+  transition: transform 0.735s cubic-bezier(0.625, 0.05, 0, 1);
+  transform-origin: right;
+  transform: scaleX(0) rotate(0.001deg);
+}
+
+.underline-link:hover::before {
+  transform-origin: left;
+  transform: scaleX(1) rotate(0.001deg);
+}
+
+/* Alt */
+.underline-link.is--alt::before {
+  transform-origin: left;
+  transform: scaleX(1) rotate(0.001deg);
+  transition-delay: 0.3s;
+}
+
+.underline-link.is--alt:hover::before {
+  transform-origin: right;
+  transform: scaleX(0) rotate(0.001deg);
+  transition-delay: 0s;
+}
+
+.underline-link.is--alt::after {
+  transform-origin: right;
+  transform: scaleX(0) rotate(0.001deg);
+  transition-delay: 0s;
+}
+
+.underline-link.is--alt:hover::after {
+  transform-origin: left;
+  transform: scaleX(1) rotate(0.001deg);
+  transition-delay: 0.3s;
+}
+
+</style>
+
+<style>
+/*width*/
+::-webkit-scrollbar {
+width:0px;
+}
+</style></div><main class="main-wrapper"><div data-wf--navbar--theme="dark" class="navbar"><div data-nav="closed" class="nav"><nav class="menu"><div class="menu-bg"><div class="bg-panel first"></div><div class="bg-panel second"></div><div class="bg-panel"></div></div><div class="menu-inner no-scrollbar"><div id="w-node-bccc8400-13f5-2b25-0ab5-6f231e17eb41-1e17eb39" class="menu-col is-1"><div class="menu-details"><div class="socials-row alight-right-tablet"><a data-menu-fade="" href="#" class="p-large text-link">©2025</a><a data-menu-fade="" href="#" class="p-large text-link">Privacy Policy | Cookies</a></div></div></div><div id="w-node-bccc8400-13f5-2b25-0ab5-6f231e17eb48-1e17eb39" class="menu-col"><ul class="menu-list"><li class="menu-list-item"><a href="../index.htm" class="menu-link w-inline-block"><p class="menu-link-heading">Home</p></a></li><li class="menu-list-item"><a href="../projects.html" class="menu-link w-inline-block"><p class="menu-link-heading">Projects</p></a></li><li class="menu-list-item hide"><a href="/about" class="menu-link w-inline-block"><p class="menu-link-heading">About</p></a></li><li class="menu-list-item"><a href="../process.html" class="menu-link w-inline-block"><p class="menu-link-heading">Process</p></a></li><li class="menu-list-item"><a href="../news.html" class="menu-link w-inline-block"><p class="menu-link-heading">Latest News</p></a></li><li class="menu-list-item"><a href="../contact.html" class="menu-link w-inline-block"><p class="menu-link-heading">Contact</p></a></li></ul><div class="menu-details"><div class="socials-row"><a data-menu-fade="" href="#" class="underline-link is-nav">88 London Rd, Brighton BN1 4JF</a><a data-menu-fade="" href="#" class="underline-link is-nav">hello@creativegiants.art</a></div></div></div><div id="w-node-bccc8400-13f5-2b25-0ab5-6f231e17eb68-1e17eb39" class="menu-col is-3 hide-tablet"><div class="video-modal"><div data-menu-fade="" class="video-thumbnail-wrap"><div data-vimeo-playing="false" class="vimeo-player" data-vimeo-activated="false" data-vimeo-fullscreen="false" data-vimeo-paused-by-user="false" data-vimeo-autoplay="false" data-vimeo-hover="false" data-vimeo-player-init="" data-vimeo-loaded="false" data-vimeo-update-size="true" data-vimeo-video-id="883321804" data-vimeo-muted="false"><div class="vimeo-player__before"></div><iframe src="" width="640" height="360" frameborder="0" allowfullscreen="true" allow="autoplay; encrypted-media" loading="lazy" class="vimeo-player__iframe"></iframe><img width="960" sizes="(max-width: 991px) 100vw, 960px" alt="" src="../678fc13a6195245eefbb1f34/679a55c780dfee06bc96dd71_Impossible%20to%20ignore.webp" loading="lazy" srcset="../678fc13a6195245eefbb1f34/679a55c780dfee06bc96dd71_Impossible%20to%20ignore-p-500.webp 500w, ../678fc13a6195245eefbb1f34/679a55c780dfee06bc96dd71_Impossible%20to%20ignore-p-800.webp 800w, ../678fc13a6195245eefbb1f34/679a55c780dfee06bc96dd71_Impossible%20to%20ignore-p-1080.webp 1080w, ../678fc13a6195245eefbb1f34/679a55c780dfee06bc96dd71_Impossible%20to%20ignore.webp 1221w" class="vimeo-player__placeholder"><div class="vimeo-player__dark"></div><div data-vimeo-control="play" class="vimeo-player__play"><div class="vimeo-player__btn"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 24 24" fill="none" class="vimeo-player__btn-play-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.38178 6.13982C6.40762 5.94017 6.48425 5.74878 6.60555 5.58089C6.72686 5.413 6.88949 5.27326 7.08049 5.17279C7.2715 5.07232 7.48559 5.01391 7.70574 5.00219C7.92587 4.99048 8.14597 5.02579 8.3485 5.10532C9.37235 5.50436 11.6669 6.45272 14.5784 7.98469C17.4908 9.51754 19.5395 10.8562 20.4294 11.4635C21.1891 11.9829 21.191 13.013 20.4304 13.5342C19.5491 14.1381 17.5256 15.4591 14.5784 17.0113C11.6283 18.5635 9.36078 19.5005 8.34657 19.8942C7.47311 20.2343 6.49554 19.7183 6.38178 18.8597C6.24873 17.856 6 15.5769 6 12.4989C6 9.42262 6.24777 7.14443 6.38178 6.13982Z" fill="currentColor"></path></svg></div></div><div data-vimeo-control="pause" class="vimeo-player__pause"><div class="vimeo-player__btn"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 24 24" fill="none" class="vimeo-player__btn-pause-svg"><path d="M8 6.5C8 6.22386 8.22386 6 8.5 6H10.5C10.7761 6 11 6.22386 11 6.5V17.5C11 17.7761 10.7761 18 10.5 18H8.5C8.22386 18 8 17.7761 8 17.5V6.5Z" fill="currentColor"></path><path d="M14 6.5C14 6.22386 14.2239 6 14.5 6H16.5C16.7761 6 17 6.22386 17 6.5V17.5C17 17.7761 16.7761 18 16.5 18H14.5C14.2239 18 14 17.7761 14 17.5V6.5Z" fill="currentColor"></path></svg></div></div><div class="vimeo-player__interface"><div class="vimeo-player__interface-bottom"><div class="vimeo-player__duration"><span data-vimeo-duration="" class="vimeo-player__duration-span">0:00</span></div><div class="vimeo-player__timeline"><progress min="0" max="100" value="0" class="vimeo-player__timeline-progress"></progress><input type="range" min="0" max="100" step="0.01" data-vimeo-control="timeline" class="vimeo-player__timeline-input" value="0"></div><div data-vimeo-control="mute" class="vimeo-player__mute"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 24 24" fill="none" class="vimeo-player__volume-up-svg"><path d="M3 8.99998V15H7L12 20V3.99998L7 8.99998H3ZM16.5 12C16.5 10.23 15.48 8.70998 14 7.96998V16.02C15.48 15.29 16.5 13.77 16.5 12ZM14 3.22998V5.28998C16.89 6.14998 19 8.82998 19 12C19 15.17 16.89 17.85 14 18.71V20.77C18.01 19.86 21 16.28 21 12C21 7.71998 18.01 4.13998 14 3.22998Z" fill="currentColor"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 24 24" fill="none" class="vimeo-player__volume-mute-svg"><path d="M16.5 12C16.5 10.23 15.48 8.71 14 7.97V10.18L16.45 12.63C16.48 12.43 16.5 12.22 16.5 12ZM19 12C19 12.94 18.8 13.82 18.46 14.64L19.97 16.15C20.63 14.91 21 13.5 21 12C21 7.72 18.01 4.14 14 3.23V5.29C16.89 6.15 19 8.83 19 12ZM4.27 3L3 4.27L7.73 9H3V15H7L12 20V13.27L16.25 17.52C15.58 18.04 14.83 18.45 14 18.7V20.76C15.38 20.45 16.63 19.81 17.69 18.95L19.73 21L21 19.73L12 10.73L4.27 3ZM12 4L9.91 6.09L12 8.18V4Z" fill="currentColor"></path></svg></div><div data-vimeo-control="fullscreen" class="vimeo-player__fullscreen"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 24 24" fill="none" class="vimeo-player__fullscreen-scale-svg"><rect x="3" y="14" width="2" height="7" fill="currentColor"></rect><rect x="3" y="3" width="2" height="7" fill="currentColor"></rect><rect x="19" y="3" width="2" height="7" fill="currentColor"></rect><rect x="19" y="14" width="2" height="7" fill="currentColor"></rect><rect x="3" y="19" width="7" height="2" fill="currentColor"></rect><rect x="14" y="19" width="7" height="2" fill="currentColor"></rect><rect x="3" y="3" width="7" height="2" fill="currentColor"></rect><rect x="14" y="3" width="7" height="2" fill="currentColor"></rect></svg><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 24 24" fill="none" class="vimeo-player__fullscreen-shrink-svg"><rect x="7" y="2" width="2" height="7" fill="currentColor"></rect><rect x="15" y="2" width="2" height="7" fill="currentColor"></rect><rect x="15" y="15" width="2" height="7" fill="currentColor"></rect><rect x="8" y="15" width="2" height="7" fill="currentColor"></rect><rect x="2" y="7" width="7" height="2" fill="currentColor"></rect><rect x="3" y="15" width="7" height="2" fill="currentColor"></rect><rect x="15" y="7" width="7" height="2" fill="currentColor"></rect><rect x="15" y="15" width="7" height="2" fill="currentColor"></rect></svg></div></div></div><div class="vimeo-player__loading"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="L9" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve" width="100%" class="vimeo-player__loading-svg"><path fill="currentColor" d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"><animatetransform attributename="transform" attributetype="XML" type="rotate" dur="1s" from="0 50 50" to="360 50 50" repeatcount="indefinite"></animatetransform></path></svg></div><div class="vimeo__js w-embed w-script"><script src="../api/player.js"></script>
+
+<script>
+function initVimeoPlayer() {
+  // Select all elements that have [data-vimeo-player-init]
+  const vimeoPlayers = document.querySelectorAll('[data-vimeo-player-init]');
+
+  vimeoPlayers.forEach(function(vimeoElement, index) {
+    
+    // Add Vimeo URL ID to the iframe [src]
+    const vimeoVideoID = vimeoElement.getAttribute('data-vimeo-video-id');
+    if (!vimeoVideoID) return;
+    const vimeoVideoURL = `https://player.vimeo.com/video/${vimeoVideoID}?api=1&background=1&autoplay=0&loop=0&muted=1`;
+    vimeoElement.querySelector('iframe').setAttribute('src', vimeoVideoURL);
+    
+    // Assign an ID to each element
+    const videoIndexID = 'vimeo-player-index-' + index;
+    vimeoElement.setAttribute('id', videoIndexID);
+
+    const iframeID = vimeoElement.id;
+    const player = new Vimeo.Player(iframeID);
+
+    // Update Aspect Ratio if [data-vimeo-update-size="true"]
+    if (vimeoElement.getAttribute('data-vimeo-update-size') === 'true') {
+      player.getVideoWidth().then(function(width) {
+        player.getVideoHeight().then(function(height) {
+          const beforeEl = vimeoElement.querySelector('.vimeo-player__before');
+          if (beforeEl) {
+            beforeEl.style.paddingTop = (height / width) * 100 + '%';
+          }
+        });
+      });
+    }
+
+    // Loaded
+    player.on('play', function() {
+      vimeoElement.setAttribute('data-vimeo-loaded', 'true');
+    });
+
+    // Autoplay
+    if (vimeoElement.getAttribute('data-vimeo-autoplay') === 'false') {
+      player.setVolume(1);
+      player.pause();
+    } else {
+      player.setVolume(0);
+      vimeoElement.setAttribute('data-vimeo-muted', 'true');
+
+      if (vimeoElement.getAttribute('data-vimeo-paused-by-user') === 'false') {
+        function checkVisibility() {
+          const rect = vimeoElement.getBoundingClientRect();
+          const inView = rect.top < window.innerHeight && rect.bottom > 0;
+          inView ? vimeoPlayerPlay() : vimeoPlayerPause();
+        }
+
+        checkVisibility();
+        window.addEventListener('scroll', checkVisibility);
+      }
+    }
+
+    // Function: Play Video
+    function vimeoPlayerPlay() {
+      vimeoElement.setAttribute('data-vimeo-activated', 'true');
+      vimeoElement.setAttribute('data-vimeo-playing', 'true');
+      player.play();
+    }
+
+    // Function: Pause Video
+    function vimeoPlayerPause() {
+      vimeoElement.setAttribute('data-vimeo-playing', 'false');
+      player.pause();
+    }
+
+    // Click: Play
+    const playBtn = vimeoElement.querySelector('[data-vimeo-control="play"]');
+    if (playBtn) {
+      playBtn.addEventListener('click', function() {
+        player.setVolume(0);
+        vimeoPlayerPlay();
+        if (vimeoElement.getAttribute('data-vimeo-muted') === 'true') {
+          player.setVolume(0);
+        } else {
+          player.setVolume(1);
+        }
+      });
+    }
+
+    // Click: Pause
+    const pauseBtn = vimeoElement.querySelector('[data-vimeo-control="pause"]');
+    if (pauseBtn) {
+      pauseBtn.addEventListener('click', function() {
+        vimeoPlayerPause();
+        if (vimeoElement.getAttribute('data-vimeo-autoplay') === 'true') {
+          vimeoElement.setAttribute('data-vimeo-paused-by-user', 'true');
+          window.removeEventListener('scroll', checkVisibility);
+        }
+      });
+    }
+
+    // Click: Mute
+    const muteBtn = vimeoElement.querySelector('[data-vimeo-control="mute"]');
+    if (muteBtn) {
+      muteBtn.addEventListener('click', function() {
+        if (vimeoElement.getAttribute('data-vimeo-muted') === 'false') {
+          player.setVolume(0);
+          vimeoElement.setAttribute('data-vimeo-muted', 'true');
+        } else {
+          player.setVolume(1);
+          vimeoElement.setAttribute('data-vimeo-muted', 'false');
+        }
+      });
+    }
+
+    // Fullscreen
+    const fullscreenSupported = !!(
+      document.fullscreenEnabled ||
+      document.webkitFullscreenEnabled ||
+      document.mozFullScreenEnabled ||
+      document.msFullscreenEnabled
+    );
+    
+    const fullscreenBtn = vimeoElement.querySelector('[data-vimeo-control="fullscreen"]');
+    if (!fullscreenSupported && fullscreenBtn) {
+      fullscreenBtn.style.display = 'none';
+    }
+    
+    if (fullscreenBtn) {
+      fullscreenBtn.addEventListener('click', () => {
+        const fullscreenElement = document.getElementById(iframeID);
+        if (!fullscreenElement) return;
+
+        const isFullscreen =
+          document.fullscreenElement ||
+          document.webkitFullscreenElement ||
+          document.mozFullScreenElement ||
+          document.msFullscreenElement;
+
+        if (isFullscreen) {
+          vimeoElement.setAttribute('data-vimeo-fullscreen', 'false');
+          (document.exitFullscreen ||
+            document.webkitExitFullscreen ||
+            document.mozCancelFullScreen ||
+            document.msExitFullscreen).call(document);
+        } else {
+          vimeoElement.setAttribute('data-vimeo-fullscreen', 'true');
+          (fullscreenElement.requestFullscreen ||
+            fullscreenElement.webkitRequestFullscreen ||
+            fullscreenElement.mozRequestFullScreen ||
+            fullscreenElement.msRequestFullscreen).call(fullscreenElement);
+        }
+      });
+    }
+    
+    const handleFullscreenChange = () => {
+      const isFullscreen =
+        document.fullscreenElement ||
+        document.webkitFullscreenElement ||
+        document.mozFullScreenElement ||
+        document.msFullscreenElement;
+
+      vimeoElement.setAttribute('data-vimeo-fullscreen', isFullscreen ? 'true' : 'false');
+    };
+    
+    ['fullscreenchange', 'webkitfullscreenchange', 'mozfullscreenchange', 'msfullscreenchange'].forEach(event => {
+      document.addEventListener(event, handleFullscreenChange);
+    });
+
+    function secondsTimeSpanToHMS(s) {
+      let m = Math.floor(s / 60);
+      s -= m * 60;
+      return m + ":" + (s < 10 ? '0' + s : s);
+    }
+
+    const vimeoDuration = vimeoElement.querySelector('[data-vimeo-duration]');
+    player.getDuration().then(function(duration) {
+      if (vimeoDuration) {
+        vimeoDuration.textContent = secondsTimeSpanToHMS(duration);
+      }
+      const timelineAndProgress = vimeoElement.querySelectorAll('[data-vimeo-control="timeline"], progress');
+      timelineAndProgress.forEach((el) => {
+        el.setAttribute('max', duration);
+      });
+    });
+
+    const timelineElem = vimeoElement.querySelector('[data-vimeo-control="timeline"]');
+    const progressElem = vimeoElement.querySelector('progress');
+
+    function updateTimelineValue() {
+      player.getDuration().then(function() {
+        const timeVal = timelineElem.value;
+        player.setCurrentTime(timeVal);
+        if (progressElem) {
+          progressElem.value = timeVal;
+        }
+      });
+    }
+
+    if (timelineElem) {
+      ['input', 'change'].forEach((evt) => {
+        timelineElem.addEventListener(evt, updateTimelineValue);
+      });
+    }
+
+    player.on('timeupdate', function(data) {
+      if (timelineElem) {
+        timelineElem.value = data.seconds;
+      }
+      if (progressElem) {
+        progressElem.value = data.seconds;
+      }
+      if (vimeoDuration) {
+        vimeoDuration.textContent = secondsTimeSpanToHMS(Math.trunc(data.seconds));
+      }
+    });
+
+    let vimeoHoverTimer;
+    vimeoElement.addEventListener('mousemove', function() {
+      vimeoElement.setAttribute('data-vimeo-hover', 'true');
+      clearTimeout(vimeoHoverTimer);
+      vimeoHoverTimer = setTimeout(() => vimeoElement.setAttribute('data-vimeo-hover', 'false'), 3000);
+    });
+
+    player.on('ended', function() {
+      vimeoElement.setAttribute('data-vimeo-activated', 'false');
+      vimeoElement.setAttribute('data-vimeo-playing', 'false');
+      player.unload();
+    });
+
+  });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  initVimeoPlayer();
+
+  // Pause all Vimeo players when the button is clicked
+  const pauseButton = document.querySelector('[data-vimeo-pause-all]');
+  
+  if (pauseButton) {
+    pauseButton.addEventListener('click', function() {
+      const vimeoPlayers = document.querySelectorAll('[data-vimeo-player-init]');
+      vimeoPlayers.forEach(function(vimeoElement) {
+        const player = new Vimeo.Player(vimeoElement.id);
+        player.pause(); // Pause the video
+        vimeoElement.setAttribute('data-vimeo-playing', 'false');
+      });
+    });
+  }
+});
+</script></div><div class="vimeo__css w-embed"><style>
+/* Placeholder */
+.vimeo-player[data-vimeo-activated="true"][data-vimeo-loaded="true"] .vimeo-player__placeholder {
+  opacity: 0;
+}
+
+/* Dark (Overlay) */
+.vimeo-player[data-vimeo-playing="false"] .vimeo-player__dark {
+  opacity: 0.33;
+}
+
+.vimeo-player[data-vimeo-activated="false"][data-vimeo-playing="false"] .vimeo-player__dark {
+  opacity: 0;
+}
+
+.vimeo-player[data-vimeo-activated="true"][data-vimeo-loaded="true"] .vimeo-player__dark {
+  opacity: 0;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .vimeo-player[data-vimeo-hover="true"]:hover .vimeo-player__dark {
+    opacity: 0.33 !important;
+  }
+}
+
+/* Pause */
+.vimeo-player .vimeo-player__pause {
+  display: none;
+}
+
+.vimeo-player[data-vimeo-playing="true"] .vimeo-player__pause {
+  display: flex;
+}
+
+.vimeo-player .vimeo-player__pause .vimeo-player__btn {
+  opacity: 0;
+}
+
+.vimeo-player[data-vimeo-activated="true"][data-vimeo-playing="false"] .vimeo-player__pause .vimeo-player__btn,
+.vimeo-player[data-vimeo-activated="true"][data-vimeo-hover="true"]:hover .vimeo-player__pause .vimeo-player__btn {
+  opacity: 1;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .vimeo-player[data-vimeo-activated="true"][data-vimeo-playing="true"] .vimeo-player__pause .vimeo-player__btn {
+    opacity: 0 !important;
+  }
+}
+
+/* Play */
+.vimeo-player[data-vimeo-playing="true"] .vimeo-player__play {
+  opacity: 0;
+}
+
+/* Loading */
+.vimeo-player .vimeo-player__loading {
+  opacity: 0;
+}
+
+.vimeo-player[data-vimeo-playing="true"] .vimeo-player__loading {
+  opacity: 1;
+}
+
+.vimeo-player[data-vimeo-playing="true"][data-vimeo-loaded="true"] .vimeo-player__loading {
+  opacity: 0;
+}
+
+/* Interface */
+.vimeo-player .vimeo-player__interface {
+  opacity: 0;
+}
+
+.vimeo-player[data-vimeo-activated="false"][data-vimeo-playing="false"] .vimeo-player__interface {
+  opacity: 1;
+}
+
+.vimeo-player .vimeo-player__interface * {
+  pointer-events: all; /* Make children of div clickable by user */
+}
+
+.vimeo-player[data-vimeo-activated="true"][data-vimeo-playing="false"] .vimeo-player__interface,
+.vimeo-player[data-vimeo-activated="true"][data-vimeo-hover="true"]:hover .vimeo-player__interface {
+  opacity: 1;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .vimeo-player[data-vimeo-activated="true"][data-vimeo-playing="true"] .vimeo-player__interface {
+    opacity: 0 !important;
+  }
+}
+
+/* Interface - Variables */
+.vimeo-player {
+  --timeline-rounded-corners: 1.5em;
+  --timeline-dot-height: 0.75em;
+  --timeline-dot-color: var(--_brand---brand-4);
+  --progress-bg: rgba(239, 238, 236, 0.2);
+  --progress-fill-bg: var(--_brand---brand-4);
+  --progress-height: 0.2em;
+}
+
+/* Interface - Timeline */
+.vimeo-player progress::-webkit-progress-bar {
+  border-radius: var(--timeline-rounded-corners);
+  background-color: var(--progress-bg);
+  box-shadow: 0;
+}
+
+.vimeo-player progress::-webkit-progress-value {
+  background: var(--progress-fill-bg);
+}
+
+.vimeo-player progress::-moz-progress-bar{
+  border-radius: var(--timeline-rounded-corners);
+  background: var(--progress-fill-bg);
+  box-shadow: 0;
+}
+
+.vimeo-player progress::-ms-fill {
+  border-radius: var(--timeline-rounded-corners);
+}
+
+/* Interface - Range */
+.vimeo-player [type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+ 
+.vimeo-player [type="range"]:focus {
+  outline: none;
+}
+ 
+.vimeo-player [type="range"]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  background-color: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+.vimeo-player [type="range"]::-webkit-slider-runnable-track{
+  width: 100%;
+  height: var(--progress-height);
+  cursor: pointer;
+  background-color: var(--progress-bg);
+  border-radius: var(--timeline-rounded-corners);
+  background-color: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+.vimeo-player [type="range"]::-webkit-slider-thumb {
+  box-shadow: 0;
+  height: var(--timeline-dot-height);
+  width: var(--timeline-dot-height);
+  border-radius: var(--timeline-rounded-corners);
+  background-color: var(--timeline-dot-color);
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: calc((var(--progress-height) / 2) - (var(--timeline-dot-height) / 2));
+}
+
+.vimeo-player [type="range"]::-webkit-slider-runnable-track,
+.vimeo-player [type="range"]:focus::-webkit-slider-runnable-track {
+  background-color: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+.vimeo-player [type="range"]::-moz-range-track {
+  width: 100%;
+  height: var(--progress-height);
+  cursor: pointer;
+  background: var(--progress-bg);
+  border-radius: 0;
+  border: 0;
+  border-radius: var(--timeline-rounded-corners);
+  overflow: hidden;
+  opacity: 1 !important;
+}
+
+.vimeo-player [type="range"]::-moz-range-thumb {
+  box-shadow: 0;
+  border: 0;
+  height: var(--timeline-dot-height);
+  width: var(--timeline-dot-height);
+  border-radius: var(--timeline-rounded-corners);
+  background: var(--timeline-dot-color);
+  cursor: pointer;
+  box-shadow: 0;
+}
+
+/* Interface - Mute */
+.vimeo-player .vimeo-player__mute svg:nth-child(2),
+.vimeo-player[data-vimeo-muted="true"] .vimeo-player__mute svg:nth-child(1) {
+  display: none;
+}
+
+.vimeo-player .vimeo-player__mute svg:nth-child(1),
+.vimeo-player[data-vimeo-muted="true"] .vimeo-player__mute svg:nth-child(2) {
+  display: block;
+}
+
+/* Interface - Fullscreen */
+.vimeo-player .vimeo-player__fullscreen svg:nth-child(2),
+.vimeo-player[data-vimeo-fullscreen="true"] .vimeo-player__fullscreen svg:nth-child(1) {
+  display: none;
+}
+
+.vimeo-player .vimeo-player__fullscreen svg:nth-child(1),
+.vimeo-player[data-vimeo-fullscreen="true"] .vimeo-player__fullscreen svg:nth-child(2) {
+  display: block;
+}
+
+</style></div></div></div><div class="video-play-wrap hide"><div data-menu-fade="" class="play-button"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 29 29" fill="none"><circle cx="14.5" cy="14.5" r="14.25" stroke="transparent"></circle><path d="M13 10.5L19 14.5L13 18.5V10.5Z" fill="currentColor"></path></svg></div><a data-menu-fade="" href="#" class="p-large text-link">PLAY SHOWREEL</a></div></div></div></div></nav><div class="nav-js w-embed w-script"><script src="../npm/gsap%403.12.5/dist/gsap.min.js"></script>
+<script src="../npm/gsap%403.12.5/dist/CustomEase.min.js"></script>
+<script>
+gsap.registerPlugin(CustomEase);
+
+CustomEase.create("main", "0.65, 0.01, 0.05, 0.99");
+
+gsap.defaults({
+  ease: "main",
+  duration: 0.9
+});
+
+function initMenu() {
+  let navWrap = document.querySelector(".nav");
+  let state = navWrap.getAttribute("data-nav");
+  let overlay = navWrap.querySelector(".overlay");
+  let menu = navWrap.querySelector(".menu");
+  let bgPanels = navWrap.querySelectorAll(".bg-panel");
+  let menuToggles = document.querySelectorAll("[data-menu-toggle]");
+  let menuLinks = navWrap.querySelectorAll(".menu-link");
+  let fadeTargets = navWrap.querySelectorAll("[data-menu-fade]");
+  let menuButton = document.querySelector(".menu-button");
+  let menuButtonTexts = menuButton.querySelectorAll("p");
+  let menuButtonIcon = menuButton.querySelector(".menu-button-icon");
+
+  let tl = gsap.timeline();
+
+  const openNav = () => {
+    navWrap.setAttribute("data-nav", "open");
+
+    tl.clear()
+      .set(navWrap, { display: "block" })
+      .set(menu, { yPercent: 0 }, "<")
+      .fromTo(menuButtonTexts, { yPercent: 0 }, { yPercent: -100, stagger: 0.2 }) 
+      .fromTo(menuButtonIcon, { rotate: 0 }, { rotate: 315 }, "<")
+      .fromTo(overlay, { autoAlpha: 0 }, { autoAlpha: 1 }, "<")
+      .fromTo(bgPanels, { yPercent: -101 }, { yPercent: 0, stagger: 0.15, duration: 0.7 }, "<")
+      .fromTo(menu, { yPercent: -100 }, { yPercent: 0, duration: 0.8 }, "<+=0.2") // Menu still comes in first
+      .fromTo(menuLinks, { yPercent: 140 }, { yPercent: 0, rotate: 0, stagger: 0.06 }, "<+=0.7") // Delayed text animation
+      .fromTo(fadeTargets, { autoAlpha: 0 }, { autoAlpha: 1, yPercent: 0, stagger: 0.05 }, "<+=0.3"); // Delayed fades
+  };
+
+  const closeNav = () => {
+    navWrap.setAttribute("data-nav", "closed");
+
+    tl.clear()
+      .to(overlay, { autoAlpha: 0, duration: 0.6 })
+      .to(menu, { yPercent: -120, duration: 0.7 }, "<")
+      .to(menuButtonTexts, { yPercent: 0 }, "<")
+      .to(menuButtonIcon, { rotate: 0 }, "<")
+      .set(navWrap, { display: "none" });
+  };
+
+  // Toggle menu open / close depending on its current state
+  menuToggles.forEach((toggle) => {
+    toggle.addEventListener("click", () => {
+      state = navWrap.getAttribute("data-nav");
+      if (state === "open") {
+        closeNav();
+      } else {
+        openNav();
+      }
+    });
+  });
+
+  // If menu is open, you can close it using the "escape" key
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && navWrap.getAttribute("data-nav") === "open") {
+      closeNav();
+    }
+  });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  initMenu();
+});
+
+
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const splitText = new SplitType(".logo-text", { types: "chars" });
+    const chars = splitText.chars;
+
+    // Wrap each char in a div with overflow hidden
+    chars.forEach((char) => {
+      const wrapper = document.createElement("div");
+      wrapper.classList.add("char-wrapper");
+      char.parentNode.insertBefore(wrapper, char);
+      wrapper.appendChild(char);
+    });
+
+    // Ensure initial state
+    gsap.set(chars, { opacity: 1, x: 0 });
+
+    let isFadedOut = false;
+
+    function handleScroll() {
+      const scrollPosition = window.scrollY;
+
+      if (scrollPosition >= 64 && !isFadedOut) {
+        isFadedOut = true;
+        gsap.killTweensOf(chars);
+        gsap.to(chars, {
+          opacity: 0,
+          x: -20,
+          duration: 1,
+          ease: "power4.out",
+        });
+      } else if (scrollPosition < 64 && isFadedOut) {
+        isFadedOut = false;
+        gsap.killTweensOf(chars);
+        gsap.to(chars, {
+          opacity: 1,
+          x: 0,
+          duration: 1,
+          ease: "power4.out",
+        });
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll);
+  });
+</script></div><div class="nav-css w-embed"><style>
+.menu-link {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.menu-list:hover .menu-link {
+  opacity: 0.5;
+}
+
+.menu-list .menu-link:hover {
+  opacity: 1;
+}
+
+.char-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+  }
+</style></div></div><section class="section_nav w-variant-93962eca-a069-f637-87e4-6c0c1a1b87a2"><a href="../index.htm" class="logo-link w-nav-brand"><div class="logo_wrapper"><div class="logo_icon-wrap w-variant-93962eca-a069-f637-87e4-6c0c1a1b87a2 is-nav"><div class="logo_svg w-embed"><svg width="100%" height="100%" viewbox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M231.208 160.513V239.169C231.208 265.652 214.275 288.193 190.651 296.529C184.311 298.776 177.48 300 170.378 300C163.275 300 156.655 298.816 150.395 296.629C150.395 296.629 150.375 296.619 150.335 296.609C150.305 296.599 150.275 296.579 150.225 296.569C149.562 296.288 146.974 295.215 143.203 293.6C135.719 289.868 129.128 284.632 123.812 278.292C119.278 272.895 115.656 266.706 113.209 259.955C110.841 253.474 109.557 246.462 109.557 239.169V81.1041C109.557 80.6828 109.567 80.2715 109.597 79.8602C109.728 77.7235 110.189 75.6671 110.941 73.7611C113.881 66.1874 121.234 60.8306 129.831 60.8306C141.026 60.8306 150.104 69.909 150.104 81.1041V228.677C150.104 239.882 159.183 248.96 170.378 248.96C176.427 248.96 181.864 246.312 185.575 242.099C188.735 238.527 190.651 233.823 190.651 228.677V181.168L164.901 168.047L150.114 160.523L150.255 160.453L190.651 139.868L231.198 160.513H231.208ZM190.651 3.47088C184.311 1.22383 177.48 0 170.378 0C163.275 0 156.444 1.22383 150.104 3.47088L146.142 5.27653L109.557 22.009C114.924 20.103 120.642 18.9393 126.58 18.6284C127.654 18.5682 128.737 18.5381 129.831 18.5381C135.137 18.5381 140.273 19.2202 145.169 20.5042C146.844 20.9356 148.489 21.4372 150.104 22.009C173.728 30.3551 190.651 52.8857 190.651 79.3687V121.16L231.208 100.505V60.8306C231.208 34.3476 214.275 11.807 190.651 3.47088Z" fill="currentColor" fill-opacity="0.4"></path>
+<path d="M190.651 79.3686V121.16L187.06 119.334L178.965 115.211L150.104 100.505V81.1041C150.104 69.909 141.026 60.8305 129.831 60.8305C121.234 60.8305 113.881 66.1873 110.941 73.751C110.189 75.667 109.728 77.7235 109.597 79.8602C109.567 80.2715 109.557 80.6827 109.557 81.1041V239.169C109.557 246.462 110.841 253.474 113.209 259.954C115.656 266.706 119.278 272.895 123.812 278.292C129.128 284.632 135.719 289.868 143.203 293.6C134.967 290.049 121.103 283.829 109.557 277.509C101.532 273.106 95.4228 268.2 91.5105 265C77.7775 253.845 69 236.822 69 217.752V79.3686C69 78.8671 69.01 78.3655 69.0201 77.8739C69.1605 71.8852 70.1737 66.1071 71.9392 60.67C77.7474 42.6436 91.7513 28.2886 109.557 22.0089C114.924 20.1029 120.642 18.9393 126.58 18.6283C127.654 18.5681 128.737 18.538 129.831 18.538C135.137 18.538 140.273 19.2202 145.169 20.5042C146.844 20.9355 148.489 21.4371 150.104 22.0089C173.728 30.3551 190.651 52.8857 190.651 79.3686ZM164.9 168.046L150.114 160.523H150.104V228.676C150.104 239.882 159.183 248.96 170.378 248.96C176.427 248.96 181.864 246.312 185.575 242.099C188.735 238.527 190.651 233.823 190.651 228.676V181.168L164.9 168.046Z" fill="currentColor"></path>
+</svg></div></div><div class="logo-text hide-mobile-portrait w-variant-93962eca-a069-f637-87e4-6c0c1a1b87a2">unique public interventions // immersive activations</div></div></a><button role="button" data-menu-toggle="" data-vimeo-pause-all="" data-lenis-toggle="" class="menu-button w-variant-93962eca-a069-f637-87e4-6c0c1a1b87a2"><div class="menu-button-text"><p class="p-large">Menu</p><p class="p-large">Close</p></div></button></section><div class="cursor-dot"></div><div class="cursor-wrap"><div class="cursor"><p class="cursor-paragraph">Learn more</p></div><div class="cursor-js w-embed w-script"><script>
+document.addEventListener("DOMContentLoaded", () => {
+  let mm = gsap.matchMedia();
+
+  mm.add("(min-width: 991px)", () => {
+    let cursorItem = document.querySelector(".cursor");
+    let cursorParagraph = cursorItem.querySelector("p");
+    let targets = document.querySelectorAll("[data-cursor]");
+    let xOffset = 6;
+    let yOffset = 140;
+    let cursorIsOnRight = false;
+    let currentTarget = null;
+    let lastText = '';
+
+    // Position cursor relative to actual cursor position on page load
+    gsap.set(cursorItem, { xPercent: xOffset, yPercent: yOffset });
+
+    // Use GSAP quick.to for a more performative tween on the cursor
+    let xTo = gsap.quickTo(cursorItem, "x", { ease: "power3" });
+    let yTo = gsap.quickTo(cursorItem, "y", { ease: "power3" });
+
+    // Function to get the width of the cursor element including a buffer
+    const getCursorEdgeThreshold = () => cursorItem.offsetWidth + 16; // Cursor width + 16px margin
+
+    // On mousemove, call the quickTo functions to the actual cursor position
+    const handleMouseMove = (e) => {
+      let windowWidth = window.innerWidth;
+      let windowHeight = window.innerHeight;
+      let scrollY = window.scrollY;
+      let cursorX = e.clientX;
+      let cursorY = e.clientY + scrollY; // Adjust cursorY to account for scroll
+
+      // Default offsets
+      let xPercent = xOffset;
+      let yPercent = yOffset;
+
+      // Adjust X offset dynamically based on cursor width
+      let cursorEdgeThreshold = getCursorEdgeThreshold();
+      if (cursorX > windowWidth - cursorEdgeThreshold) {
+        cursorIsOnRight = true;
+        xPercent = -100;
+      } else {
+        cursorIsOnRight = false;
+      }
+
+      // Adjust Y offset if in the bottom 10% of the current viewport
+      if (cursorY > scrollY + windowHeight * 0.9) {
+        yPercent = -120;
+      }
+
+      if (currentTarget) {
+        let newText = currentTarget.getAttribute("data-cursor");
+        if (newText !== lastText) { // Only update if the text is different
+          cursorParagraph.innerHTML = newText;
+          lastText = newText;
+
+          // Recalculate edge awareness whenever the text changes
+          cursorEdgeThreshold = getCursorEdgeThreshold();
+        }
+      }
+
+      gsap.to(cursorItem, { xPercent: xPercent, yPercent: yPercent, duration: 0.9, ease: "power3" });
+      xTo(cursorX);
+      yTo(cursorY - scrollY);
+    };
+
+    // Add mouse event listeners
+    window.addEventListener("mousemove", handleMouseMove);
+
+    // Add a mouse enter listener for each element with a data-cursor attribute
+    targets.forEach(target => {
+      target.addEventListener("mouseenter", () => {
+        currentTarget = target; // Set the current target
+        let newText = target.getAttribute("data-cursor");
+
+        if (newText !== lastText) {
+          cursorParagraph.innerHTML = newText;
+          lastText = newText;
+        }
+      });
+
+      target.addEventListener("mouseleave", () => {
+        currentTarget = null;
+      });
+    });
+
+    // Cleanup function when resizing below 991px
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+      targets.forEach(target => {
+        target.removeEventListener("mouseenter", () => {});
+        target.removeEventListener("mouseleave", () => {});
+      });
+
+      gsap.set(cursorItem, { x: 0, y: 0, autoAlpha: 0 }); // Hide cursor on smaller screens
+    };
+  });
+});
+</script>
+
+<script>
+function initBasicCustomCursor() {  
+  
+  gsap.set(".cursor-dot", {xPercent: -50, yPercent: -50});
+
+  let xTo = gsap.quickTo(".cursor-dot", "x", {duration: 0.01, ease: "power3"});
+  let yTo = gsap.quickTo(".cursor-dot", "y", {duration: 0.01, ease: "power3"});
+
+  window.addEventListener("mousemove", e => {
+    xTo(e.clientX);
+    yTo(e.clientY);
+  });
+}
+
+// Initialize Basic Custom Cursor
+document.addEventListener('DOMContentLoaded', () => {
+  initBasicCustomCursor();
+});
+</script></div><div class="cursor-css w-embed"><style>
+@media (min-width: 991px) {
+  body:has([data-cursor]:hover) .cursor {
+    opacity: 1;
+  }
+
+  .button:hover .button-bg {
+    transform: scale(0.95);
+  }
+}
+
+body:has( a:hover) .cursor-dot,
+body:has( button:hover) .cursor-dot,
+body:has( [data-cursor-dot]:hover) .cursor-dot{
+  width: 1rem;
+  height: 1rem;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .cursor-dot {
+    display: none;
+  }
+}
+
+</style></div></div><div class="transition_wrap"><div class="transition_column is-6"></div><div class="transition_column is-5"></div><div class="transition_column is-4"></div><div class="transition_column is-3"></div><div class="transition_column is-2"></div><div class="transition_column is-1"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 503 112" fill="none" class="transition_svg-wrap max-width-30ch hide"><path d="M38.7449 64.9613V94.1986C38.7449 100.312 37.1911 104.783 34.0672 107.626C30.9433 110.469 26.331 111.899 20.2304 111.899C7.39135 111.899 0.97998 105.226 0.97998 91.8813V20.8998C0.97998 14.0301 2.59918 8.98465 5.82122 5.76344C9.04325 2.54224 13.8518 0.931641 20.2304 0.931641C26.6091 0.931641 31.1069 2.32859 34.1653 5.12249C37.2238 7.91639 38.7449 12.4359 38.7449 18.6976V61.9208L21.5716 53.2269V16.824C21.5716 15.5092 21.0646 14.8518 20.0505 14.8518C19.1183 14.8518 18.6603 15.5092 18.693 16.824V95.9407C18.693 97.2554 19.2 97.9293 20.2141 97.9293C21.1463 97.9293 21.6043 97.2719 21.5716 95.9407V56.3002L38.7449 64.9613ZM80.6804 111.11H62.8366L60.972 70.6641H59.0094V111.11H41.7216V1.6712H62.6567C68.283 1.6712 72.519 3.03528 75.3812 5.77988C78.2271 8.50804 79.6664 12.4195 79.6664 17.5143V52.2901C79.6664 56.6946 78.6196 60.1294 76.5098 62.5782L80.6804 111.11ZM59.0094 57.3684H59.6799C61.1356 57.3684 61.8716 55.9715 61.8716 53.1776V19.9302C61.8716 17.6293 61.1356 16.4789 59.6799 16.4789H59.0094V57.3684ZM100.045 96.2858H112.59V111.11H82.7576V1.6712H112.361V16.4953H100.029V47.6555H111.903V61.6743H100.029V96.2858H100.045ZM135.046 111.11L134.588 87.2467H130.876L130.418 111.11H112.574L118.56 1.6712H147.149L152.939 111.11H135.046ZM131.284 73.2115H134.261L133.411 31.418L133.182 18.3524H132.168L132.053 31.418L131.268 73.2115H131.284ZM182.788 1.6712V16.3803H174.97V111.11H157.633V16.4789H149.701V1.78625L182.804 1.6712H182.788ZM184.702 1.6712H201.989V111.11H184.702V1.6712ZM224.773 1.6712H242.387L235.911 111.11H209.513L203.102 1.6712H220.716L222.352 70.7791L222.466 89.3339H223.595L223.709 70.7791L224.773 1.6712ZM260.902 96.2858H273.447V111.11H243.614V1.6712H273.218V16.4953H260.886V47.6555H272.76V61.6743H260.886V96.2858H260.902ZM311.849 103.024C311.097 106.196 309.969 108.464 308.447 109.844C306.926 111.225 304.669 111.915 301.66 111.915C297.98 111.915 295.118 110.551 293.057 107.807C290.996 105.078 289.966 100.871 289.966 95.2175V20.8998C289.966 13.9644 291.552 8.90247 294.742 5.71414C297.931 2.52581 302.821 0.931641 309.429 0.931641C321.663 0.931641 327.763 6.33866 327.714 17.1691V58.7654L310.214 50.0714V16.824C310.214 15.5092 309.707 14.8518 308.693 14.8518C307.76 14.8518 307.303 15.5092 307.335 16.824V96.4008C307.335 97.6499 307.875 98.2744 308.938 98.2744C310.001 98.2744 310.541 97.5348 310.541 96.0722V68.0674L309.02 67.295V52.4051L327.698 61.8058V111.11H314.581L312.602 103.024H311.817H311.849ZM330.92 1.6712H348.208V111.11H330.92V1.6712ZM371.792 111.11L371.334 87.2467H367.622L367.164 111.11H349.32L355.29 1.6712H383.879L389.669 111.11H371.776H371.792ZM368.014 73.2115H370.991L370.14 31.418L369.911 18.3524H368.897L368.783 31.418L367.998 73.2115H368.014ZM415.02 60.9347L413.27 30.8428V1.6712H429.429V111.11H413.057L406.352 49.6277H405.452L407.022 81.4781V111.11H390.928V1.6712H407.529L414.055 60.9512H415.004L415.02 60.9347ZM464.43 1.6712V16.3803H456.612V111.11H439.275V16.4789H431.343V1.78625L464.446 1.6712H464.43ZM465.951 53.457L483.124 62.1345H483.19C485.103 63.137 486.052 64.764 486.052 66.9992V96.3022C486.052 97.4691 485.545 98.0607 484.531 98.0607C483.517 98.0607 482.961 97.4034 482.961 96.0886V65.142L465.788 56.4481V96.8939C465.755 106.919 472.035 111.932 484.645 111.932C490.648 111.932 495.342 110.403 498.711 107.346C502.08 104.29 502.833 100 502.833 94.4451V63.1699L502.98 54.2951L485.807 45.6176L485.349 45.3711C483.73 44.3521 482.928 42.7251 482.928 40.5064V16.6432C482.895 15.3284 483.386 14.6711 484.384 14.6711C485.316 14.6711 485.79 15.3284 485.79 16.6432V40.2763C485.79 42.4786 487.589 43.5961 487.589 43.5961L502.947 51.3698V16.0351C502.947 11.1705 501.344 7.43978 498.171 4.8431C494.982 2.24642 490.419 0.948075 484.498 0.948075C478.578 0.948075 473.556 2.41076 470.236 5.35258C466.916 8.29439 466.033 12.4195 466.033 17.7443V43.3661L465.918 53.4734L465.951 53.457Z" fill="currentColor"></path></svg></div></div></div><div class="scroll-wrapper"><header class="section_project-hero"><div style="color:#baf8d4;background-color:#135431" class="project-hero_header"><div class="padding-global"><div class="container-full padding-section-large is-project"><div class="project-hero_header-wrap"><h1 js-line-animation="" class="project-hero_header heading-style-h1">Minecraft #ShapeYourWorld</h1></div></div></div></div><div style="color:#135431;background-color:#baf8d4" class="project-hero_header is-alternate"><div class="padding-global"><div class="container-full padding-section-small"><div data-fade-children="" class="project-hero_subheader"><div class="project-hero_sub-left"><div class="project-hero_item"><div>Location</div><div class="eyebrow-wrap"><div class="eyebrow-dot"></div><div>London</div></div></div><div class="project-hero_item"><div>Live</div><div class="eyebrow-wrap"><div class="eyebrow-dot"></div><div>December, 2021</div></div></div></div><div class="project-hero_sub-right"><div class="project-hero_item"><div>Client</div><div class="eyebrow-wrap"><div class="eyebrow-dot"></div><div>Edelman</div></div></div><div class="project-hero_item"><div>Brand</div><div class="eyebrow-wrap"><div class="eyebrow-dot"></div><div>Xbox</div></div></div><div class="project-hero_item"><div>Tag</div><div data-fade-children="" class="projects-scroll_tag-wrap horizontal"><div class="projects-tag"><div>Production</div></div></div></div></div></div></div></div></div><div class="project-hero_image-wrap"><img data-scale-effect="" src="../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled.webp" alt="" loading="lazy" sizes="100vw" srcset="../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled-p-500.webp 500w, ../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled-p-800.webp 800w, ../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled-p-1080.webp 1080w, ../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled-p-1600.webp 1600w, ../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled-p-2000.webp 2000w, ../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled.webp 2560w" class="project-hero_image"></div></header><section class="section_project-content"><div class="padding-global"><div class="container-full padding-section-large is-project-page"><div class="project-content_component"><div id="w-node-f106b6ec-e10f-a90f-288e-829388cf1675-88cf1671" class="project-content_list"><div class="project-content_item"><div class="eyebrow-wrap"><div js-line-animation="" class="eyebrow-text">The what</div></div><div class="text-size-regular text-color-secondary w-richtext"><p>A 6X6 metre interactive metal cube at Alexandra Palace that gradually revealed bespoke Minecraft artwork over time.</p></div></div><div class="project-content_item"><div class="eyebrow-wrap"><div js-line-animation="" class="eyebrow-text">The why</div></div><div class="text-size-regular text-color-secondary w-richtext"><p>Minecraft wanted a big, memorable and newsworthy celebration for their 15th birthday. Not only did it have to be interactive and experiential, but it also needed to look great on video.</p></div></div><div class="project-content_item"><div class="eyebrow-wrap"><div js-line-animation="" class="eyebrow-text">The how</div></div><div class="text-size-regular text-color-secondary w-richtext"><p>We devised a simple but compelling way to engage the public with the installation - splitting the artwork into thousands of numbered magnets which could be placed on the cube individually. In effect, Minecraft fans and visitors were creating the artwork themselves.</p><p>‍</p><p>Key to the activation was ensuring that the experience could be captured on film in an engaging way that suggested a gradual reveal. This meant uncovering larger, harder-to-reach sections of the artwork in stages. </p><p>‍</p><p>Creative Giants were involved from the outset, coordinating and collaborating with the brand, venue, agencies and contractors. We oversaw the project through to completion, creatively problem solving at every stage to ensure the original objectives were never compromised.</p></div></div><div class="project-content_item"><div class="eyebrow-wrap"><div js-line-animation="" class="eyebrow-text">We love it because</div></div><div class="text-size-regular text-color-secondary w-richtext"><ul role="list"><li>It reflects a feeling and an atmosphere at the heart of one of the world’s most iconic cultural events </li><li>It highlights our design and build expertise, installing sculpture in the public realm </li><li>It allowed us to work with a globally recognised artist and bring his work to life for the public.</li></ul></div></div></div></div></div></div></section><section class="section_project-media"><div class="padding-global"><div class="container-full padding-section-small"><div class="visual-small_grid"><div id="w-node-_1abfa0d5-b46e-8040-0836-f36953726c43-014473f2" class="visual-small_wrap"><div data-vimeo-playing="false" class="vimeo-player large" data-vimeo-activated="false" data-vimeo-fullscreen="false" data-menu-fade="" data-vimeo-paused-by-user="false" data-vimeo-autoplay="false" data-vimeo-hover="false" data-vimeo-player-init="" data-vimeo-loaded="false" data-vimeo-update-size="true" data-vimeo-video-id="1093663869" data-vimeo-muted="false"><div class="vimeo-player__before large-2"></div><iframe src="" width="640" height="360" frameborder="0" allowfullscreen="true" allow="autoplay; encrypted-media" class="vimeo-player__iframe large-3"></iframe><img width="960" src="../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled.webp" alt="" loading="eager" sizes="(max-width: 991px) 100vw, 960px" srcset="../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled-p-500.webp 500w, ../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled-p-800.webp 800w, ../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled-p-1080.webp 1080w, ../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled-p-1600.webp 1600w, ../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled-p-2000.webp 2000w, ../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled.webp 2560w" class="vimeo-player__placeholder large-4"><div class="vimeo-player__dark large-5"></div><div data-vimeo-control="play" class="vimeo-player__play large-6"><div class="vimeo-player__btn large-10"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 24 24" fill="none" class="vimeo-player__btn-play-svg large-8"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.38178 6.13982C6.40762 5.94017 6.48425 5.74878 6.60555 5.58089C6.72686 5.413 6.88949 5.27326 7.08049 5.17279C7.2715 5.07232 7.48559 5.01391 7.70574 5.00219C7.92587 4.99048 8.14597 5.02579 8.3485 5.10532C9.37235 5.50436 11.6669 6.45272 14.5784 7.98469C17.4908 9.51754 19.5395 10.8562 20.4294 11.4635C21.1891 11.9829 21.191 13.013 20.4304 13.5342C19.5491 14.1381 17.5256 15.4591 14.5784 17.0113C11.6283 18.5635 9.36078 19.5005 8.34657 19.8942C7.47311 20.2343 6.49554 19.7183 6.38178 18.8597C6.24873 17.856 6 15.5769 6 12.4989C6 9.42262 6.24777 7.14443 6.38178 6.13982Z" fill="currentColor"></path></svg></div></div><div data-vimeo-control="pause" class="vimeo-player__pause large-9"><div class="vimeo-player__btn large-10"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 24 24" fill="none" class="vimeo-player__btn-pause-svg large-11"><path d="M8 6.5C8 6.22386 8.22386 6 8.5 6H10.5C10.7761 6 11 6.22386 11 6.5V17.5C11 17.7761 10.7761 18 10.5 18H8.5C8.22386 18 8 17.7761 8 17.5V6.5Z" fill="currentColor"></path><path d="M14 6.5C14 6.22386 14.2239 6 14.5 6H16.5C16.7761 6 17 6.22386 17 6.5V17.5C17 17.7761 16.7761 18 16.5 18H14.5C14.2239 18 14 17.7761 14 17.5V6.5Z" fill="currentColor"></path></svg></div></div><div class="vimeo-player__interface large-12"><div class="vimeo-player__interface-bottom large-13"><div class="vimeo-player__duration large-14"><span data-vimeo-duration="" class="vimeo-player__duration-span large-15">0:00</span></div><div class="vimeo-player__timeline large-16"><progress min="0" max="100" value="0" class="vimeo-player__timeline-progress large-17"></progress><input type="range" min="0" max="100" step="0.01" data-vimeo-control="timeline" class="vimeo-player__timeline-input large-18" value="0"></div><div data-vimeo-control="mute" class="vimeo-player__mute large-19"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 24 24" fill="none" class="vimeo-player__volume-up-svg large-20"><path d="M3 8.99998V15H7L12 20V3.99998L7 8.99998H3ZM16.5 12C16.5 10.23 15.48 8.70998 14 7.96998V16.02C15.48 15.29 16.5 13.77 16.5 12ZM14 3.22998V5.28998C16.89 6.14998 19 8.82998 19 12C19 15.17 16.89 17.85 14 18.71V20.77C18.01 19.86 21 16.28 21 12C21 7.71998 18.01 4.13998 14 3.22998Z" fill="currentColor"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 24 24" fill="none" class="vimeo-player__volume-mute-svg large-21"><path d="M16.5 12C16.5 10.23 15.48 8.71 14 7.97V10.18L16.45 12.63C16.48 12.43 16.5 12.22 16.5 12ZM19 12C19 12.94 18.8 13.82 18.46 14.64L19.97 16.15C20.63 14.91 21 13.5 21 12C21 7.72 18.01 4.14 14 3.23V5.29C16.89 6.15 19 8.83 19 12ZM4.27 3L3 4.27L7.73 9H3V15H7L12 20V13.27L16.25 17.52C15.58 18.04 14.83 18.45 14 18.7V20.76C15.38 20.45 16.63 19.81 17.69 18.95L19.73 21L21 19.73L12 10.73L4.27 3ZM12 4L9.91 6.09L12 8.18V4Z" fill="currentColor"></path></svg></div><div data-vimeo-control="fullscreen" class="vimeo-player__fullscreen large-22"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 24 24" fill="none" class="vimeo-player__fullscreen-scale-svg large-23"><rect x="3" y="14" width="2" height="7" fill="currentColor"></rect><rect x="3" y="3" width="2" height="7" fill="currentColor"></rect><rect x="19" y="3" width="2" height="7" fill="currentColor"></rect><rect x="19" y="14" width="2" height="7" fill="currentColor"></rect><rect x="3" y="19" width="7" height="2" fill="currentColor"></rect><rect x="14" y="19" width="7" height="2" fill="currentColor"></rect><rect x="3" y="3" width="7" height="2" fill="currentColor"></rect><rect x="14" y="3" width="7" height="2" fill="currentColor"></rect></svg><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 24 24" fill="none" class="vimeo-player__fullscreen-shrink-svg large-24"><rect x="7" y="2" width="2" height="7" fill="currentColor"></rect><rect x="15" y="2" width="2" height="7" fill="currentColor"></rect><rect x="15" y="15" width="2" height="7" fill="currentColor"></rect><rect x="8" y="15" width="2" height="7" fill="currentColor"></rect><rect x="2" y="7" width="7" height="2" fill="currentColor"></rect><rect x="3" y="15" width="7" height="2" fill="currentColor"></rect><rect x="15" y="7" width="7" height="2" fill="currentColor"></rect><rect x="15" y="15" width="7" height="2" fill="currentColor"></rect></svg></div></div></div><div class="vimeo-player__loading large-25"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="L9" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve" width="100%" class="vimeo-player__loading-svg large-26"><path fill="currentColor" d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"><animatetransform attributename="transform" attributetype="XML" type="rotate" dur="1s" from="0 50 50" to="360 50 50" repeatcount="indefinite"></animatetransform></path></svg></div><div class="vimeo__js large-27 w-embed w-script"><script src="../api/player.js"></script>
+
+<script>
+function initVimeoPlayer() {
+  // Select all elements that have [data-vimeo-player-init]
+  const vimeoPlayers = document.querySelectorAll('[data-vimeo-player-init]');
+
+  vimeoPlayers.forEach(function(vimeoElement, index) {
+    
+    // Add Vimeo URL ID to the iframe [src]
+    // Looks like: https://player.vimeo.com/video/1019191082
+    const vimeoVideoID = vimeoElement.getAttribute('data-vimeo-video-id');
+    if (!vimeoVideoID) return;
+    const vimeoVideoURL = `https://player.vimeo.com/video/${vimeoVideoID}?api=1&background=1&autoplay=0&loop=0&muted=1`;
+    vimeoElement.querySelector('iframe').setAttribute('src', vimeoVideoURL);
+    
+    // Assign an ID to each element
+    const videoIndexID = 'vimeo-player-index-' + index;
+    vimeoElement.setAttribute('id', videoIndexID);
+
+    const iframeID = vimeoElement.id;
+    const player = new Vimeo.Player(iframeID);
+
+    // Update Aspect Ratio if [data-vimeo-update-size="true"]
+    if (vimeoElement.getAttribute('data-vimeo-update-size') === 'true') {
+      player.getVideoWidth().then(function(width) {
+        player.getVideoHeight().then(function(height) {
+          const beforeEl = vimeoElement.querySelector('.vimeo-player__before');
+          if (beforeEl) {
+            beforeEl.style.paddingTop = (height / width) * 100 + '%';
+          }
+        });
+      });
+    }
+
+    // Loaded
+    player.on('play', function() {
+      vimeoElement.setAttribute('data-vimeo-loaded', 'true');
+    });
+
+    // Autoplay
+    if (vimeoElement.getAttribute('data-vimeo-autoplay') === 'false') {
+      // Autoplay = false
+      player.setVolume(1);
+      player.pause();
+    } else {
+      // Autoplay = true
+      player.setVolume(0);
+      vimeoElement.setAttribute('data-vimeo-muted', 'true');
+
+      // If paused-by-user === false, do scroll-based autoplay
+      if (vimeoElement.getAttribute('data-vimeo-paused-by-user') === 'false') {
+        function checkVisibility() {
+          const rect = vimeoElement.getBoundingClientRect();
+          const inView = rect.top < window.innerHeight && rect.bottom > 0;
+          inView ? vimeoPlayerPlay() : vimeoPlayerPause();
+        }
+
+        // Initial check
+        checkVisibility();
+
+        // Handle scroll
+        window.addEventListener('scroll', checkVisibility);
+      }
+    }
+
+    // Function: Play Video
+    function vimeoPlayerPlay() {
+      vimeoElement.setAttribute('data-vimeo-activated', 'true');
+      vimeoElement.setAttribute('data-vimeo-playing', 'true');
+      player.play();
+    }
+
+    // Function: Pause Video
+    function vimeoPlayerPause() {
+      vimeoElement.setAttribute('data-vimeo-playing', 'false');
+      player.pause();
+    }
+
+    // Click: Play
+    const playBtn = vimeoElement.querySelector('[data-vimeo-control="play"]');
+    if (playBtn) {
+      playBtn.addEventListener('click', function() {
+        // Always set volume to 0 first to avoid pop
+        player.setVolume(0);
+        vimeoPlayerPlay();
+
+        // If muted attribute is 'true', keep volume at 0, else 1
+        if (vimeoElement.getAttribute('data-vimeo-muted') === 'true') {
+          player.setVolume(0);
+        } else {
+          player.setVolume(1);
+        }
+      });
+    }
+
+    // Click: Pause
+    const pauseBtn = vimeoElement.querySelector('[data-vimeo-control="pause"]');
+    if (pauseBtn) {
+      pauseBtn.addEventListener('click', function() {
+        vimeoPlayerPause();
+        // If paused by user => kill the scroll-based autoplay
+        if (vimeoElement.getAttribute('data-vimeo-autoplay') === 'true') {
+          vimeoElement.setAttribute('data-vimeo-paused-by-user', 'true');
+          // Removing scroll listener (if you’d like)
+          window.removeEventListener('scroll', checkVisibility);
+        }
+      });
+    }
+
+    // Click: Mute
+    const muteBtn = vimeoElement.querySelector('[data-vimeo-control="mute"]');
+    if (muteBtn) {
+      muteBtn.addEventListener('click', function() {
+        if (vimeoElement.getAttribute('data-vimeo-muted') === 'false') {
+          player.setVolume(0);
+          vimeoElement.setAttribute('data-vimeo-muted', 'true');
+        } else {
+          player.setVolume(1);
+          vimeoElement.setAttribute('data-vimeo-muted', 'false');
+        }
+      });
+    }
+
+    // Fullscreen
+    // Check if Fullscreen API is supported
+    const fullscreenSupported = !!(
+      document.fullscreenEnabled ||
+      document.webkitFullscreenEnabled ||
+      document.mozFullScreenEnabled ||
+      document.msFullscreenEnabled
+    );
+    
+    const fullscreenBtn = vimeoElement.querySelector('[data-vimeo-control="fullscreen"]');
+    
+    // Hide the fullscreen button if not supported
+    if (!fullscreenSupported && fullscreenBtn) {
+      fullscreenBtn.style.display = 'none';
+    }
+    
+    if (fullscreenBtn) {
+      fullscreenBtn.addEventListener('click', () => {
+        const fullscreenElement = document.getElementById(iframeID);
+        if (!fullscreenElement) return;
+    
+        const isFullscreen =
+          document.fullscreenElement ||
+          document.webkitFullscreenElement ||
+          document.mozFullScreenElement ||
+          document.msFullscreenElement;
+    
+        if (isFullscreen) {
+          // Exit fullscreen
+          vimeoElement.setAttribute('data-vimeo-fullscreen', 'false');
+          (document.exitFullscreen ||
+            document.webkitExitFullscreen ||
+            document.mozCancelFullScreen ||
+            document.msExitFullscreen).call(document);
+        } else {
+          // Enter fullscreen
+          vimeoElement.setAttribute('data-vimeo-fullscreen', 'true');
+          (fullscreenElement.requestFullscreen ||
+            fullscreenElement.webkitRequestFullscreen ||
+            fullscreenElement.mozRequestFullScreen ||
+            fullscreenElement.msRequestFullscreen).call(fullscreenElement);
+        }
+      });
+    }
+    
+    const handleFullscreenChange = () => {
+      const isFullscreen =
+        document.fullscreenElement ||
+        document.webkitFullscreenElement ||
+        document.mozFullScreenElement ||
+        document.msFullscreenElement;
+    
+      vimeoElement.setAttribute('data-vimeo-fullscreen', isFullscreen ? 'true' : 'false');
+    };
+    
+    // Add event listeners for fullscreen changes (with vendor prefixes)
+    ['fullscreenchange', 'webkitfullscreenchange', 'mozfullscreenchange', 'msfullscreenchange'].forEach(event => {
+      document.addEventListener(event, handleFullscreenChange);
+    });
+
+    // Convert seconds to mm:ss
+    function secondsTimeSpanToHMS(s) {
+      let h = Math.floor(s / 3600);
+      s -= h * 3600;
+      let m = Math.floor(s / 60);
+      s -= m * 60;
+      return m + ":" + (s < 10 ? '0' + s : s);
+    }
+
+    // Duration
+    const vimeoDuration = vimeoElement.querySelector('[data-vimeo-duration]');
+    player.getDuration().then(function(duration) {
+      if (vimeoDuration) {
+        vimeoDuration.textContent = secondsTimeSpanToHMS(duration);
+      }
+      // Update timeline + progress max
+      const timelineAndProgress = vimeoElement.querySelectorAll('[data-vimeo-control="timeline"], progress');
+      timelineAndProgress.forEach((el) => {
+        el.setAttribute('max', duration);
+      });
+    });
+
+    // Timeline
+    const timelineElem = vimeoElement.querySelector('[data-vimeo-control="timeline"]');
+    const progressElem = vimeoElement.querySelector('progress');
+
+    function updateTimelineValue() {
+      player.getDuration().then(function() {
+        const timeVal = timelineElem.value;
+        player.setCurrentTime(timeVal);
+        if (progressElem) {
+          progressElem.value = timeVal;
+        }
+      });
+    }
+
+    if (timelineElem) {
+      ['input', 'change'].forEach((evt) => {
+        timelineElem.addEventListener(evt, updateTimelineValue);
+      });
+    }
+
+    // Progress Time & Timeline (timeupdate)
+    player.on('timeupdate', function(data) {
+      if (timelineElem) {
+        timelineElem.value = data.seconds;
+      }
+      if (progressElem) {
+        progressElem.value = data.seconds;
+      }
+      if (vimeoDuration) {
+        vimeoDuration.textContent = secondsTimeSpanToHMS(Math.trunc(data.seconds));
+      }
+    });
+
+    // Hide controls after hover on Vimeo player
+    let vimeoHoverTimer;
+    vimeoElement.addEventListener('mousemove', function() {
+      if (vimeoElement.getAttribute('data-vimeo-hover') === 'false') {
+        vimeoElement.setAttribute('data-vimeo-hover', 'true');
+      }
+      clearTimeout(vimeoHoverTimer);
+      vimeoHoverTimer = setTimeout(vimeoHoverTrue, 3000);
+    });
+
+    function vimeoHoverTrue() {
+      vimeoElement.setAttribute('data-vimeo-hover', 'false');
+    }
+
+    // Video Ended
+    function vimeoOnEnd() {
+      vimeoElement.setAttribute('data-vimeo-activated', 'false');
+      vimeoElement.setAttribute('data-vimeo-playing', 'false');
+      player.unload();
+    }
+    player.on('ended', vimeoOnEnd);
+
+  });
+}
+
+// Initialize Vimeo Player
+document.addEventListener('DOMContentLoaded', function() {
+  initVimeoPlayer();
+});
+</script></div><div class="vimeo__css large-28 w-embed"><style>
+/* Placeholder */
+.vimeo-player[data-vimeo-activated="true"][data-vimeo-loaded="true"] .vimeo-player__placeholder {
+  opacity: 0;
+}
+
+/* Dark (Overlay) */
+.vimeo-player[data-vimeo-playing="false"] .vimeo-player__dark {
+  opacity: 0.33;
+}
+
+.vimeo-player[data-vimeo-activated="false"][data-vimeo-playing="false"] .vimeo-player__dark {
+  opacity: 0;
+}
+
+.vimeo-player[data-vimeo-activated="true"][data-vimeo-loaded="true"] .vimeo-player__dark {
+  opacity: 0;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .vimeo-player[data-vimeo-hover="true"]:hover .vimeo-player__dark {
+    opacity: 0.33 !important;
+  }
+}
+
+/* Pause */
+.vimeo-player .vimeo-player__pause {
+  display: none;
+}
+
+.vimeo-player[data-vimeo-playing="true"] .vimeo-player__pause {
+  display: flex;
+}
+
+.vimeo-player .vimeo-player__pause .vimeo-player__btn {
+  opacity: 0;
+}
+
+.vimeo-player[data-vimeo-activated="true"][data-vimeo-playing="false"] .vimeo-player__pause .vimeo-player__btn,
+.vimeo-player[data-vimeo-activated="true"][data-vimeo-hover="true"]:hover .vimeo-player__pause .vimeo-player__btn {
+  opacity: 1;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .vimeo-player[data-vimeo-activated="true"][data-vimeo-playing="true"] .vimeo-player__pause .vimeo-player__btn {
+    opacity: 0 !important;
+  }
+}
+
+/* Play */
+.vimeo-player[data-vimeo-playing="true"] .vimeo-player__play {
+  opacity: 0;
+}
+
+/* Loading */
+.vimeo-player .vimeo-player__loading {
+  opacity: 0;
+}
+
+.vimeo-player[data-vimeo-playing="true"] .vimeo-player__loading {
+  opacity: 1;
+}
+
+.vimeo-player[data-vimeo-playing="true"][data-vimeo-loaded="true"] .vimeo-player__loading {
+  opacity: 0;
+}
+
+/* Interface */
+.vimeo-player .vimeo-player__interface {
+  opacity: 0;
+}
+
+.vimeo-player[data-vimeo-activated="false"][data-vimeo-playing="false"] .vimeo-player__interface {
+  opacity: 1;
+}
+
+.vimeo-player .vimeo-player__interface * {
+  pointer-events: all; /* Make children of div clickable by user */
+}
+
+.vimeo-player[data-vimeo-activated="true"][data-vimeo-playing="false"] .vimeo-player__interface,
+.vimeo-player[data-vimeo-activated="true"][data-vimeo-hover="true"]:hover .vimeo-player__interface {
+  opacity: 1;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .vimeo-player[data-vimeo-activated="true"][data-vimeo-playing="true"] .vimeo-player__interface {
+    opacity: 0 !important;
+  }
+}
+
+/* Interface - Variables */
+.vimeo-player {
+  --timeline-rounded-corners: 1.5em;
+  --timeline-dot-height: 0.75em;
+  --timeline-dot-color: #baf8d4;
+  --progress-bg: rgba(239, 238, 236, 0.2);
+  --progress-fill-bg: #baf8d4;
+  --progress-height: 0.2em;
+}
+
+/* Interface - Timeline */
+.vimeo-player progress::-webkit-progress-bar {
+  border-radius: var(--timeline-rounded-corners);
+  background-color: var(--progress-bg);
+  box-shadow: 0;
+}
+
+.vimeo-player progress::-webkit-progress-value {
+  background: var(--progress-fill-bg);
+}
+
+.vimeo-player progress::-moz-progress-bar{
+  border-radius: var(--timeline-rounded-corners);
+  background: var(--progress-fill-bg);
+  box-shadow: 0;
+}
+
+.vimeo-player progress::-ms-fill {
+  border-radius: var(--timeline-rounded-corners);
+}
+
+/* Interface - Range */
+.vimeo-player [type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+ 
+.vimeo-player [type="range"]:focus {
+  outline: none;
+}
+ 
+.vimeo-player [type="range"]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  background-color: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+.vimeo-player [type="range"]::-webkit-slider-runnable-track{
+  width: 100%;
+  height: var(--progress-height);
+  cursor: pointer;
+  background-color: var(--progress-bg);
+  border-radius: var(--timeline-rounded-corners);
+  background-color: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+.vimeo-player [type="range"]::-webkit-slider-thumb {
+  box-shadow: 0;
+  height: var(--timeline-dot-height);
+  width: var(--timeline-dot-height);
+  border-radius: var(--timeline-rounded-corners);
+  background-color: var(--timeline-dot-color);
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: calc((var(--progress-height) / 2) - (var(--timeline-dot-height) / 2));
+}
+
+.vimeo-player [type="range"]::-webkit-slider-runnable-track,
+.vimeo-player [type="range"]:focus::-webkit-slider-runnable-track {
+  background-color: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+.vimeo-player [type="range"]::-moz-range-track {
+  width: 100%;
+  height: var(--progress-height);
+  cursor: pointer;
+  background: var(--progress-bg);
+  border-radius: 0;
+  border: 0;
+  border-radius: var(--timeline-rounded-corners);
+  overflow: hidden;
+  opacity: 1 !important;
+}
+
+.vimeo-player [type="range"]::-moz-range-thumb {
+  box-shadow: 0;
+  border: 0;
+  height: var(--timeline-dot-height);
+  width: var(--timeline-dot-height);
+  border-radius: var(--timeline-rounded-corners);
+  background: var(--timeline-dot-color);
+  cursor: pointer;
+  box-shadow: 0;
+}
+
+/* Interface - Mute */
+.vimeo-player .vimeo-player__mute svg:nth-child(2),
+.vimeo-player[data-vimeo-muted="true"] .vimeo-player__mute svg:nth-child(1) {
+  display: none;
+}
+
+.vimeo-player .vimeo-player__mute svg:nth-child(1),
+.vimeo-player[data-vimeo-muted="true"] .vimeo-player__mute svg:nth-child(2) {
+  display: block;
+}
+
+/* Interface - Fullscreen */
+.vimeo-player .vimeo-player__fullscreen svg:nth-child(2),
+.vimeo-player[data-vimeo-fullscreen="true"] .vimeo-player__fullscreen svg:nth-child(1) {
+  display: none;
+}
+
+.vimeo-player .vimeo-player__fullscreen svg:nth-child(1),
+.vimeo-player[data-vimeo-fullscreen="true"] .vimeo-player__fullscreen svg:nth-child(2) {
+  display: block;
+}
+
+</style></div></div></div></div></div></div></section><section class="section_project-media"><div class="padding-global"><div class="container-full padding-section-small"><div class="visual-small_grid"><div id="w-node-_4f6748fd-85eb-ca63-bbca-2551162273c3-014473f2" class="project-img_cms-wrap w-dyn-list"><script type="text/x-wf-template" id="wf-template-4f6748fd-85eb-ca63-bbca-2551162273c4">%3Cdiv%20role%3D%22listitem%22%20class%3D%22project-img_cms-item%20w-dyn-item%20w-dyn-repeater-item%22%3E%3Cdiv%20class%3D%22project_image-wrap%22%3E%3Cimg%20src%3D%22https%3A%2F%2Fcdn.prod.website-files.com%2F6798e66ffa82a441b157a7ca%2F6882cafb902f08b3c175177b_685025d33c1136b211ab1681_Screenshot%25202024-12-03%2520004010.webp%22%20loading%3D%22lazy%22%20alt%3D%22%22%20sizes%3D%22100vw%22%20srcset%3D%22https%3A%2F%2Fcdn.prod.website-files.com%2F6798e66ffa82a441b157a7ca%2F6882cafb902f08b3c175177b_685025d33c1136b211ab1681_Screenshot%25202024-12-03%2520004010-p-500.webp%20500w%2C%20https%3A%2F%2Fcdn.prod.website-files.com%2F6798e66ffa82a441b157a7ca%2F6882cafb902f08b3c175177b_685025d33c1136b211ab1681_Screenshot%25202024-12-03%2520004010-p-800.webp%20800w%2C%20https%3A%2F%2Fcdn.prod.website-files.com%2F6798e66ffa82a441b157a7ca%2F6882cafb902f08b3c175177b_685025d33c1136b211ab1681_Screenshot%25202024-12-03%2520004010-p-1080.webp%201080w%2C%20https%3A%2F%2Fcdn.prod.website-files.com%2F6798e66ffa82a441b157a7ca%2F6882cafb902f08b3c175177b_685025d33c1136b211ab1681_Screenshot%25202024-12-03%2520004010.webp%201200w%22%20class%3D%22project_image%22%2F%3E%3C%2Fdiv%3E%3C%2Fdiv%3E</script><div role="list" class="project-img_cms-list w-dyn-items"><div role="listitem" class="project-img_cms-item w-dyn-item w-dyn-repeater-item"><div class="project_image-wrap"><img src="../6798e66ffa82a441b157a7ca/6882cafb902f08b3c175177b_685025d33c1136b211ab1681_Screenshot%202024-12-03%20004010.webp" loading="lazy" alt="" sizes="100vw" srcset="../6798e66ffa82a441b157a7ca/6882cafb902f08b3c175177b_685025d33c1136b211ab1681_Screenshot%202024-12-03%20004010-p-500.webp 500w, ../6798e66ffa82a441b157a7ca/6882cafb902f08b3c175177b_685025d33c1136b211ab1681_Screenshot%202024-12-03%20004010-p-800.webp 800w, ../6798e66ffa82a441b157a7ca/6882cafb902f08b3c175177b_685025d33c1136b211ab1681_Screenshot%202024-12-03%20004010-p-1080.webp 1080w, ../6798e66ffa82a441b157a7ca/6882cafb902f08b3c175177b_685025d33c1136b211ab1681_Screenshot%202024-12-03%20004010.webp 1200w" class="project_image"></div></div><div role="listitem" class="project-img_cms-item w-dyn-item w-dyn-repeater-item"><div class="project_image-wrap"><img src="../6798e66ffa82a441b157a7ca/6882cb04279ebd3e67e29c53_685024a0cebef8302f0ed9bb_Screenshot%202024-12-03%20004026.webp" loading="lazy" alt="" sizes="100vw" srcset="../6798e66ffa82a441b157a7ca/6882cb04279ebd3e67e29c53_685024a0cebef8302f0ed9bb_Screenshot%202024-12-03%20004026-p-500.webp 500w, ../6798e66ffa82a441b157a7ca/6882cb04279ebd3e67e29c53_685024a0cebef8302f0ed9bb_Screenshot%202024-12-03%20004026-p-800.webp 800w, ../6798e66ffa82a441b157a7ca/6882cb04279ebd3e67e29c53_685024a0cebef8302f0ed9bb_Screenshot%202024-12-03%20004026-p-1080.webp 1080w, ../6798e66ffa82a441b157a7ca/6882cb04279ebd3e67e29c53_685024a0cebef8302f0ed9bb_Screenshot%202024-12-03%20004026.webp 1200w" class="project_image"></div></div></div><div class="w-dyn-hide w-dyn-empty"><div>No items found.</div></div></div></div></div></div></section><section class="section_project-content w-condition-invisible"><div class="padding-global"><div class="container-full padding-section-large is-project-page"><div class="project-content_component"><div id="w-node-b8884137-e422-3f03-dca5-546f42fe9a0b-014473f2" class="project-content_stat-list"><div class="stat_wrap"><div class="heading-style-h4 w-dyn-bind-empty"></div><div class="w-dyn-bind-empty"></div></div><div class="stat_wrap"><div class="heading-style-h4 w-dyn-bind-empty"></div><div class="w-dyn-bind-empty"></div></div><div class="stat_wrap"><div class="heading-style-h4 w-dyn-bind-empty"></div><div class="w-dyn-bind-empty"></div></div></div></div></div></div></section><section class="section_project-quote w-condition-invisible"><div class="padding-global"><div class="container-full padding-section-large"><div class="project-quote_component"><div id="w-node-_43f02c9f-0063-ea90-d314-14a764ee993b-014473f2" class="project-quote_wrap"><div class="eyebrow-wrap w-condition-invisible"><div class="eyebrow-dot"></div><div class="w-condition-invisible w-dyn-bind-empty"></div></div><div class="heading-quote hide">“Projects like this deserve unquestionable dedication <span class="image-span is-1"> </span> <!-- -->and commitment. <span class="image-span is-2"> </span> That’s exactly what we got from Creative Giants - going above and beyond <span class="image-span"> </span> to ensure this important <span class="image-span"> </span> statement was every bit as impactful as it <span class="image-span"> </span> could be.”</div><text class="text-quote-qrap"><div js-line-animation="" class="heading-quote w-dyn-bind-empty"></div><div class="quote-js w-embed w-script"><!-- GSAP & SplitType -->
+<script src="../ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="../ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="../split-type%400.3.4/umd/index.min.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    // Select all heading-quote elements inside custom blocks
+    let lines = document.querySelectorAll(".heading-quote");
+
+    lines.forEach(line => {
+        // Apply SplitType to split text into characters
+        new SplitType(line, { types: "chars" });
+
+        // GSAP ScrollTrigger setup (no animations applied)
+        gsap.timeline({
+            scrollTrigger: {
+                trigger: line,
+                start: "top 80%",
+                end: "bottom 20%",
+                scrub: true
+            }
+        });
+    });
+});
+</script></div></text></div></div></div></div></section><section class="section_project-media"><div class="padding-global"><div class="container-full padding-section-small"><div class="project-img_grid"><div id="w-node-_9d0fb31a-86f0-5af0-793f-be08aec3fd53-014473f2" class="project_image-wrap"><img src="../6798e66ffa82a441b157a7ca/6882cafb902f08b3c175177b_685025d33c1136b211ab1681_Screenshot%202024-12-03%20004010.webp" loading="lazy" alt="" sizes="100vw" srcset="../6798e66ffa82a441b157a7ca/6882cafb902f08b3c175177b_685025d33c1136b211ab1681_Screenshot%202024-12-03%20004010-p-500.webp 500w, ../6798e66ffa82a441b157a7ca/6882cafb902f08b3c175177b_685025d33c1136b211ab1681_Screenshot%202024-12-03%20004010-p-800.webp 800w, ../6798e66ffa82a441b157a7ca/6882cafb902f08b3c175177b_685025d33c1136b211ab1681_Screenshot%202024-12-03%20004010-p-1080.webp 1080w, ../6798e66ffa82a441b157a7ca/6882cafb902f08b3c175177b_685025d33c1136b211ab1681_Screenshot%202024-12-03%20004010.webp 1200w" class="project_img"></div><div id="w-node-_9d0fb31a-86f0-5af0-793f-be08aec3fd55-014473f2" class="project_image-wrap"><img src="../6798e66ffa82a441b157a7ca/6882cb17c094cccfe4569bd8_6850252b0dbeaf7cbb214f5f_Screenshot%202025-06-16%20at%2015.06.14.webp" loading="lazy" alt="" sizes="100vw" srcset="../6798e66ffa82a441b157a7ca/6882cb17c094cccfe4569bd8_6850252b0dbeaf7cbb214f5f_Screenshot%202025-06-16%20at%2015.06.14-p-500.webp 500w, ../6798e66ffa82a441b157a7ca/6882cb17c094cccfe4569bd8_6850252b0dbeaf7cbb214f5f_Screenshot%202025-06-16%20at%2015.06.14-p-800.webp 800w, ../6798e66ffa82a441b157a7ca/6882cb17c094cccfe4569bd8_6850252b0dbeaf7cbb214f5f_Screenshot%202025-06-16%20at%2015.06.14.webp 1000w" class="project_img"></div><div id="w-node-_9d0fb31a-86f0-5af0-793f-be08aec3fd57-014473f2" class="project_image-wrap hide-tablet"><img src="../6798e66ffa82a441b157a7ca/6882cb1f32cb58c8fc2d8feb_68502539bb1d27727dab75c1_Screenshot%202025-06-16%20at%2015.06.41.webp" loading="lazy" alt="" sizes="100vw" srcset="../6798e66ffa82a441b157a7ca/6882cb1f32cb58c8fc2d8feb_68502539bb1d27727dab75c1_Screenshot%202025-06-16%20at%2015.06.41-p-500.webp 500w, ../6798e66ffa82a441b157a7ca/6882cb1f32cb58c8fc2d8feb_68502539bb1d27727dab75c1_Screenshot%202025-06-16%20at%2015.06.41-p-800.webp 800w, ../6798e66ffa82a441b157a7ca/6882cb1f32cb58c8fc2d8feb_68502539bb1d27727dab75c1_Screenshot%202025-06-16%20at%2015.06.41.webp 1000w" class="project_img"></div><div id="w-node-_9d0fb31a-86f0-5af0-793f-be08aec3fd59-014473f2" class="project_image-wrap hide-tablet"><img src="../6798e66ffa82a441b157a7ca/6882cb375d799d8fb7558fc4_6850258a9de1b6fc3b477af4_Screenshot%202025-06-16%20at%2015.08.12.webp" loading="lazy" alt="" sizes="100vw" srcset="../6798e66ffa82a441b157a7ca/6882cb375d799d8fb7558fc4_6850258a9de1b6fc3b477af4_Screenshot%202025-06-16%20at%2015.08.12-p-500.webp 500w, ../6798e66ffa82a441b157a7ca/6882cb375d799d8fb7558fc4_6850258a9de1b6fc3b477af4_Screenshot%202025-06-16%20at%2015.08.12-p-800.webp 800w, ../6798e66ffa82a441b157a7ca/6882cb375d799d8fb7558fc4_6850258a9de1b6fc3b477af4_Screenshot%202025-06-16%20at%2015.08.12.webp 1000w" class="project_img"></div><div id="w-node-_9d0fb31a-86f0-5af0-793f-be08aec3fd5b-014473f2" class="project_image-wrap"><img src="../6798e66ffa82a441b157a7ca/6882cb04279ebd3e67e29c53_685024a0cebef8302f0ed9bb_Screenshot%202024-12-03%20004026.webp" loading="lazy" alt="" sizes="100vw" srcset="../6798e66ffa82a441b157a7ca/6882cb04279ebd3e67e29c53_685024a0cebef8302f0ed9bb_Screenshot%202024-12-03%20004026-p-500.webp 500w, ../6798e66ffa82a441b157a7ca/6882cb04279ebd3e67e29c53_685024a0cebef8302f0ed9bb_Screenshot%202024-12-03%20004026-p-800.webp 800w, ../6798e66ffa82a441b157a7ca/6882cb04279ebd3e67e29c53_685024a0cebef8302f0ed9bb_Screenshot%202024-12-03%20004026-p-1080.webp 1080w, ../6798e66ffa82a441b157a7ca/6882cb04279ebd3e67e29c53_685024a0cebef8302f0ed9bb_Screenshot%202024-12-03%20004026.webp 1200w" class="project_img"></div><div id="w-node-_9d0fb31a-86f0-5af0-793f-be08aec3fd5d-014473f2" class="project_image-wrap hide-tablet"><img src="../6798e66ffa82a441b157a7ca/6882cb27f3074afc0ec48212_68502580d939f9367a460762_Screenshot%202025-06-16%20at%2015.08.30.webp" loading="lazy" alt="" sizes="100vw" srcset="../6798e66ffa82a441b157a7ca/6882cb27f3074afc0ec48212_68502580d939f9367a460762_Screenshot%202025-06-16%20at%2015.08.30-p-500.webp 500w, ../6798e66ffa82a441b157a7ca/6882cb27f3074afc0ec48212_68502580d939f9367a460762_Screenshot%202025-06-16%20at%2015.08.30-p-800.webp 800w, ../6798e66ffa82a441b157a7ca/6882cb27f3074afc0ec48212_68502580d939f9367a460762_Screenshot%202025-06-16%20at%2015.08.30.webp 1000w" class="project_img"></div></div></div></div></section><section class="section_project-quote w-condition-invisible"><div class="padding-global"><div class="container-full padding-section-large"><div class="project-quote_component"><div id="w-node-cf9be564-7b31-5cfa-c22b-3d55a091a53e-014473f2" class="project-quote_wrap"><div class="eyebrow-wrap"><div class="eyebrow-dot"></div><div class="w-condition-invisible w-dyn-bind-empty"></div></div><div class="heading-quote hide">“Projects like this deserve unquestionable dedication <span class="image-span is-1"> </span> <!-- -->and commitment. <span class="image-span is-2"> </span> That’s exactly what we got from Creative Giants - going above and beyond <span class="image-span"> </span> to ensure this important <span class="image-span"> </span> statement was every bit as impactful as it <span class="image-span"> </span> could be.”</div><text class="text-quote-qrap"><div js-line-animation="" class="heading-quote w-dyn-bind-empty"></div><div class="quote-js w-embed w-script"><!-- GSAP & SplitType -->
+<script src="../ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="../ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="../split-type%400.3.4/umd/index.min.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    // Select all heading-quote elements inside custom blocks
+    let lines = document.querySelectorAll(".heading-quote");
+
+    lines.forEach(line => {
+        // Apply SplitType to split text into characters
+        new SplitType(line, { types: "chars" });
+
+        // GSAP ScrollTrigger setup (no animations applied)
+        gsap.timeline({
+            scrollTrigger: {
+                trigger: line,
+                start: "top 80%",
+                end: "bottom 20%",
+                scrub: true
+            }
+        });
+    });
+});
+</script></div></text></div></div></div></div></section><div class="next-project_cms-list-wrap w-dyn-list"><div role="list" class="next-project_cms-list w-dyn-items"><div data-slug="halo-masterpiece" role="listitem" class="next-project_cms-item w-dyn-item"><section style="color:#b0ffb0;background-color:#103112" class="section_next-project"><div class="padding-global"><div class="container-full padding-section-medium"><div class="next-project_component"><div class="eyebrow-wrap"><div>Next Project:</div></div><div class="next-project_image-wrap"><img src="../6798e66ffa82a441b157a7ca/6852da342a9de8c8fdc467d6_Halo-Hero2.webp" loading="lazy" alt="" sizes="100vw" srcset="../6798e66ffa82a441b157a7ca/6852da342a9de8c8fdc467d6_Halo-Hero2-p-500.webp 500w, ../6798e66ffa82a441b157a7ca/6852da342a9de8c8fdc467d6_Halo-Hero2-p-800.webp 800w, ../6798e66ffa82a441b157a7ca/6852da342a9de8c8fdc467d6_Halo-Hero2-p-1080.webp 1080w, ../6798e66ffa82a441b157a7ca/6852da342a9de8c8fdc467d6_Halo-Hero2-p-1600.webp 1600w, ../6798e66ffa82a441b157a7ca/6852da342a9de8c8fdc467d6_Halo-Hero2.webp 2000w" class="next-project_imag"></div><div id="w-node-_1d37ebe1-cfcd-2b8c-16fc-5618c6f05ff0-014473f2" class="next-project_text-wrap max-width-50ch"><h3 js-line-animation="" class="heading-style-h5">Halo Masterpiece </h3><div class="text-size-regular w-richtext"><p>A 6X3 metre renaissance-style oil painting to support the launch of Xbox’s flagship video game, Halo Infinite.</p></div></div><div id="w-node-_1d37ebe1-cfcd-2b8c-16fc-5618c6f05ff5-014473f2" class="button-group align-right"><a href="halo-masterpiece.html" data-btn-hover="" style="border-color:#b0ffb0" class="btn is-icon tertiary-10 is-project w-inline-block"><div class="btn__bg tertiary-11 is-project"></div><div class="btn__circle-wrap tertiary-12 is-projects"><div class="btn__rect tertiary-13 is-projects"><div style="background-color:#b0ffb0" class="before__100 tertiary-14"></div></div></div><div class="btn__text tertiary-15"><p class="btn-text-p tertiary-16">View project</p></div><div class="btn__icon-wrap-projects tertiary-17 is-projects"><div class="btn__icon-slot tertiary-18"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 14 14" fill="none" class="svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.86031 0.00280762H14V12.1417H12.8189V2.01904L0.83515 14.0028L0 13.1677L11.9838 1.18389H1.86031V0.00280762Z" fill="currentColor"></path></svg></div></div></a></div></div></div></div></section></div><div data-slug="impossible-to-ignore" role="listitem" class="next-project_cms-item w-dyn-item"><section style="color:#a5c8eb;background-color:#101731" class="section_next-project"><div class="padding-global"><div class="container-full padding-section-medium"><div class="next-project_component"><div class="eyebrow-wrap"><div>Next Project:</div></div><div class="next-project_image-wrap"><img src="../6798e66ffa82a441b157a7ca/6882d43a65130d7ad1e99205_67a497aef0779d3fe8dcdf74_Impossible%20-%20Hero.webp" loading="lazy" alt="" sizes="100vw" srcset="../6798e66ffa82a441b157a7ca/6882d43a65130d7ad1e99205_67a497aef0779d3fe8dcdf74_Impossible%20-%20Hero-p-500.webp 500w, ../6798e66ffa82a441b157a7ca/6882d43a65130d7ad1e99205_67a497aef0779d3fe8dcdf74_Impossible%20-%20Hero-p-800.webp 800w, ../6798e66ffa82a441b157a7ca/6882d43a65130d7ad1e99205_67a497aef0779d3fe8dcdf74_Impossible%20-%20Hero-p-1080.webp 1080w, ../6798e66ffa82a441b157a7ca/6882d43a65130d7ad1e99205_67a497aef0779d3fe8dcdf74_Impossible%20-%20Hero.webp 1504w" class="next-project_imag"></div><div id="w-node-_1d37ebe1-cfcd-2b8c-16fc-5618c6f05ff0-014473f2" class="next-project_text-wrap max-width-50ch"><h3 js-line-animation="" class="heading-style-h5">Impossible to ignore</h3><div class="text-size-regular w-richtext"><p>A 2.5 ton, 4.3m high, hyper-realistic sculpture of a homeless man, installed at London Kings Cross and Birmingham’s Bullring.</p></div></div><div id="w-node-_1d37ebe1-cfcd-2b8c-16fc-5618c6f05ff5-014473f2" class="button-group align-right"><a href="impossible-to-ignore.html" data-btn-hover="" style="border-color:#a5c8eb" class="btn is-icon tertiary-10 is-project w-inline-block"><div class="btn__bg tertiary-11 is-project"></div><div class="btn__circle-wrap tertiary-12 is-projects"><div class="btn__rect tertiary-13 is-projects"><div style="background-color:#a5c8eb" class="before__100 tertiary-14"></div></div></div><div class="btn__text tertiary-15"><p class="btn-text-p tertiary-16">View project</p></div><div class="btn__icon-wrap-projects tertiary-17 is-projects"><div class="btn__icon-slot tertiary-18"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 14 14" fill="none" class="svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.86031 0.00280762H14V12.1417H12.8189V2.01904L0.83515 14.0028L0 13.1677L11.9838 1.18389H1.86031V0.00280762Z" fill="currentColor"></path></svg></div></div></a></div></div></div></div></section></div><div data-slug="silent-fall" role="listitem" class="next-project_cms-item w-dyn-item"><section style="color:#a5e5eb;background-color:#103131" class="section_next-project"><div class="padding-global"><div class="container-full padding-section-medium"><div class="next-project_component"><div class="eyebrow-wrap"><div>Next Project:</div></div><div class="next-project_image-wrap"><img src="../6798e66ffa82a441b157a7ca/6882d243966677f5b38e7c7f_67b49f28199b2b1335cb61eb_6fd39bea5f375075f6d6f8351bda303f_Silent%20Fall%20-%20Hero.avif" loading="lazy" alt="" class="next-project_imag"></div><div id="w-node-_1d37ebe1-cfcd-2b8c-16fc-5618c6f05ff0-014473f2" class="next-project_text-wrap max-width-50ch"><h3 js-line-animation="" class="heading-style-h5">Silent Fall</h3><div class="text-size-regular w-richtext"><p>A fully immersive exhibition by Superblue London and artist Duo AA Murakami.</p></div></div><div id="w-node-_1d37ebe1-cfcd-2b8c-16fc-5618c6f05ff5-014473f2" class="button-group align-right"><a href="silent-fall.html" data-btn-hover="" style="border-color:#a5e5eb" class="btn is-icon tertiary-10 is-project w-inline-block"><div class="btn__bg tertiary-11 is-project"></div><div class="btn__circle-wrap tertiary-12 is-projects"><div class="btn__rect tertiary-13 is-projects"><div style="background-color:#a5e5eb" class="before__100 tertiary-14"></div></div></div><div class="btn__text tertiary-15"><p class="btn-text-p tertiary-16">View project</p></div><div class="btn__icon-wrap-projects tertiary-17 is-projects"><div class="btn__icon-slot tertiary-18"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 14 14" fill="none" class="svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.86031 0.00280762H14V12.1417H12.8189V2.01904L0.83515 14.0028L0 13.1677L11.9838 1.18389H1.86031V0.00280762Z" fill="currentColor"></path></svg></div></div></a></div></div></div></div></section></div><div data-slug="norfolk-way-art-trail" role="listitem" class="next-project_cms-item w-dyn-item"><section style="color:#f7e8ce;background-color:#81331f" class="section_next-project"><div class="padding-global"><div class="container-full padding-section-medium"><div class="next-project_component"><div class="eyebrow-wrap"><div>Next Project:</div></div><div class="next-project_image-wrap"><img src="../6798e66ffa82a441b157a7ca/6882d107d5fb1affd5d0d716_67b4a4033df8ba8ec0a69996_Norfolk%20Way%20Art%20Trail%20-%20Hero.avif" loading="lazy" alt="" class="next-project_imag"></div><div id="w-node-_1d37ebe1-cfcd-2b8c-16fc-5618c6f05ff0-014473f2" class="next-project_text-wrap max-width-50ch"><h3 js-line-animation="" class="heading-style-h5">Norfolk Way Art Trail</h3><div class="text-size-regular w-richtext"><p>The Norfolk Way Art Trail 2022 was a public art initiative showcasing large-scale sculptures inspired by local stories and landscapes across Norfolk.</p></div></div><div id="w-node-_1d37ebe1-cfcd-2b8c-16fc-5618c6f05ff5-014473f2" class="button-group align-right"><a href="norfolk-way-art-trail.html" data-btn-hover="" style="border-color:#f7e8ce" class="btn is-icon tertiary-10 is-project w-inline-block"><div class="btn__bg tertiary-11 is-project"></div><div class="btn__circle-wrap tertiary-12 is-projects"><div class="btn__rect tertiary-13 is-projects"><div style="background-color:#f7e8ce" class="before__100 tertiary-14"></div></div></div><div class="btn__text tertiary-15"><p class="btn-text-p tertiary-16">View project</p></div><div class="btn__icon-wrap-projects tertiary-17 is-projects"><div class="btn__icon-slot tertiary-18"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 14 14" fill="none" class="svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.86031 0.00280762H14V12.1417H12.8189V2.01904L0.83515 14.0028L0 13.1677L11.9838 1.18389H1.86031V0.00280762Z" fill="currentColor"></path></svg></div></div></a></div></div></div></div></section></div><div data-slug="life-uncensored" role="listitem" class="next-project_cms-item w-dyn-item"><section style="color:#c4fbed;background-color:#105f57" class="section_next-project"><div class="padding-global"><div class="container-full padding-section-medium"><div class="next-project_component"><div class="eyebrow-wrap"><div>Next Project:</div></div><div class="next-project_image-wrap"><img src="../6798e66ffa82a441b157a7ca/6882d054c39a67bdf8693046_67b4a7077339840bee413d72_Life%20Uncensored-%20Hero.avif" loading="lazy" alt="" class="next-project_imag"></div><div id="w-node-_1d37ebe1-cfcd-2b8c-16fc-5618c6f05ff0-014473f2" class="next-project_text-wrap max-width-50ch"><h3 js-line-animation="" class="heading-style-h5">Life Uncensored</h3><div class="text-size-regular w-richtext"><p>An immersive, interactive and X-rated celebration to launch Lionsgate&#x27;s new streaming platform, Lionsgate+</p></div></div><div id="w-node-_1d37ebe1-cfcd-2b8c-16fc-5618c6f05ff5-014473f2" class="button-group align-right"><a href="life-uncensored.html" data-btn-hover="" style="border-color:#c4fbed" class="btn is-icon tertiary-10 is-project w-inline-block"><div class="btn__bg tertiary-11 is-project"></div><div class="btn__circle-wrap tertiary-12 is-projects"><div class="btn__rect tertiary-13 is-projects"><div style="background-color:#c4fbed" class="before__100 tertiary-14"></div></div></div><div class="btn__text tertiary-15"><p class="btn-text-p tertiary-16">View project</p></div><div class="btn__icon-wrap-projects tertiary-17 is-projects"><div class="btn__icon-slot tertiary-18"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 14 14" fill="none" class="svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.86031 0.00280762H14V12.1417H12.8189V2.01904L0.83515 14.0028L0 13.1677L11.9838 1.18389H1.86031V0.00280762Z" fill="currentColor"></path></svg></div></div></a></div></div></div></div></section></div><div data-slug="calm-missed-birthdays" role="listitem" class="next-project_cms-item w-dyn-item"><section style="color:#eba5a6;background-color:#311011" class="section_next-project"><div class="padding-global"><div class="container-full padding-section-medium"><div class="next-project_component"><div class="eyebrow-wrap"><div>Next Project:</div></div><div class="next-project_image-wrap"><img src="../6798e66ffa82a441b157a7ca/6882cc2aa788ed759d4e2c18_68502c02bf65bde2e99084bd_fosx9tr0ktkkftzrzl0hd45zh4h2.webp" loading="lazy" alt="" sizes="100vw" srcset="../6798e66ffa82a441b157a7ca/6882cc2aa788ed759d4e2c18_68502c02bf65bde2e99084bd_fosx9tr0ktkkftzrzl0hd45zh4h2-p-500.webp 500w, ../6798e66ffa82a441b157a7ca/6882cc2aa788ed759d4e2c18_68502c02bf65bde2e99084bd_fosx9tr0ktkkftzrzl0hd45zh4h2-p-800.webp 800w, ../6798e66ffa82a441b157a7ca/6882cc2aa788ed759d4e2c18_68502c02bf65bde2e99084bd_fosx9tr0ktkkftzrzl0hd45zh4h2-p-1080.webp 1080w, ../6798e66ffa82a441b157a7ca/6882cc2aa788ed759d4e2c18_68502c02bf65bde2e99084bd_fosx9tr0ktkkftzrzl0hd45zh4h2-p-1600.webp 1600w, ../6798e66ffa82a441b157a7ca/6882cc2aa788ed759d4e2c18_68502c02bf65bde2e99084bd_fosx9tr0ktkkftzrzl0hd45zh4h2.webp 1920w" class="next-project_imag"></div><div id="w-node-_1d37ebe1-cfcd-2b8c-16fc-5618c6f05ff0-014473f2" class="next-project_text-wrap max-width-50ch"><h3 js-line-animation="" class="heading-style-h5">CALM Missed Birthdays</h3><div class="text-size-regular w-richtext"><p>A walk-through installation of 6,929 balloons at Westfield shopping centre in London.</p></div></div><div id="w-node-_1d37ebe1-cfcd-2b8c-16fc-5618c6f05ff5-014473f2" class="button-group align-right"><a href="calm-missed-birthdays.html" data-btn-hover="" style="border-color:#eba5a6" class="btn is-icon tertiary-10 is-project w-inline-block"><div class="btn__bg tertiary-11 is-project"></div><div class="btn__circle-wrap tertiary-12 is-projects"><div class="btn__rect tertiary-13 is-projects"><div style="background-color:#eba5a6" class="before__100 tertiary-14"></div></div></div><div class="btn__text tertiary-15"><p class="btn-text-p tertiary-16">View project</p></div><div class="btn__icon-wrap-projects tertiary-17 is-projects"><div class="btn__icon-slot tertiary-18"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 14 14" fill="none" class="svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.86031 0.00280762H14V12.1417H12.8189V2.01904L0.83515 14.0028L0 13.1677L11.9838 1.18389H1.86031V0.00280762Z" fill="currentColor"></path></svg></div></div></a></div></div></div></div></section></div><div data-slug="minecraft-shapeyourworld" role="listitem" class="next-project_cms-item w-dyn-item"><section style="color:#baf8d4;background-color:#135431" class="section_next-project"><div class="padding-global"><div class="container-full padding-section-medium"><div class="next-project_component"><div class="eyebrow-wrap"><div>Next Project:</div></div><div class="next-project_image-wrap"><img src="../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled.webp" loading="lazy" alt="" sizes="100vw" srcset="../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled-p-500.webp 500w, ../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled-p-800.webp 800w, ../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled-p-1080.webp 1080w, ../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled-p-1600.webp 1600w, ../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled-p-2000.webp 2000w, ../6798e66ffa82a441b157a7ca/6882ca665cc5ffc239edc94d_68502447fbf484f68c9640b2_AN2I7241AlexandraPalace-Minecraft-180524-LloydWinters-scaled.webp 2560w" class="next-project_imag"></div><div id="w-node-_1d37ebe1-cfcd-2b8c-16fc-5618c6f05ff0-014473f2" class="next-project_text-wrap max-width-50ch"><h3 js-line-animation="" class="heading-style-h5">Minecraft #ShapeYourWorld</h3><div class="text-size-regular w-richtext"><p>A 6X6 metre interactive metal cube at Alexandra Palace that gradually revealed bespoke Minecraft artwork over time.</p></div></div><div id="w-node-_1d37ebe1-cfcd-2b8c-16fc-5618c6f05ff5-014473f2" class="button-group align-right"><a href="minecraft-shapeyourworld.html" data-btn-hover="" style="border-color:#baf8d4" aria-current="page" class="btn is-icon tertiary-10 is-project w-inline-block w--current"><div class="btn__bg tertiary-11 is-project"></div><div class="btn__circle-wrap tertiary-12 is-projects"><div class="btn__rect tertiary-13 is-projects"><div style="background-color:#baf8d4" class="before__100 tertiary-14"></div></div></div><div class="btn__text tertiary-15"><p class="btn-text-p tertiary-16">View project</p></div><div class="btn__icon-wrap-projects tertiary-17 is-projects"><div class="btn__icon-slot tertiary-18"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 14 14" fill="none" class="svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.86031 0.00280762H14V12.1417H12.8189V2.01904L0.83515 14.0028L0 13.1677L11.9838 1.18389H1.86031V0.00280762Z" fill="currentColor"></path></svg></div></div></a></div></div></div></div></section></div><div data-slug="rainbow-dude" role="listitem" class="next-project_cms-item w-dyn-item"><section style="color:#ffe0e0;background-color:#a01414" class="section_next-project"><div class="padding-global"><div class="container-full padding-section-medium"><div class="next-project_component"><div class="eyebrow-wrap"><div>Next Project:</div></div><div class="next-project_image-wrap"><img src="../6798e66ffa82a441b157a7ca/6882c6c5c415d34f146dc110_Rainbow%20Dude%20-%20Hero-%28Compressify.io%29.webp" loading="lazy" alt="" sizes="100vw" srcset="../6798e66ffa82a441b157a7ca/6882c6c5c415d34f146dc110_Rainbow%20Dude%20-%20Hero-%28Compressify.io%29-p-500.webp 500w, ../6798e66ffa82a441b157a7ca/6882c6c5c415d34f146dc110_Rainbow%20Dude%20-%20Hero-%28Compressify.io%29-p-800.webp 800w, ../6798e66ffa82a441b157a7ca/6882c6c5c415d34f146dc110_Rainbow%20Dude%20-%20Hero-%28Compressify.io%29-p-1080.webp 1080w, ../6798e66ffa82a441b157a7ca/6882c6c5c415d34f146dc110_Rainbow%20Dude%20-%20Hero-%28Compressify.io%29.webp 1504w" class="next-project_imag"></div><div id="w-node-_1d37ebe1-cfcd-2b8c-16fc-5618c6f05ff0-014473f2" class="next-project_text-wrap max-width-50ch"><h3 js-line-animation="" class="heading-style-h5">Rainbow Dude</h3><div class="text-size-regular w-richtext"><p>A seven-metre tall smiling rainbow sculpture overlooking the Glastonbury Festival site</p></div></div><div id="w-node-_1d37ebe1-cfcd-2b8c-16fc-5618c6f05ff5-014473f2" class="button-group align-right"><a href="rainbow-dude.html" data-btn-hover="" style="border-color:#ffe0e0" class="btn is-icon tertiary-10 is-project w-inline-block"><div class="btn__bg tertiary-11 is-project"></div><div class="btn__circle-wrap tertiary-12 is-projects"><div class="btn__rect tertiary-13 is-projects"><div style="background-color:#ffe0e0" class="before__100 tertiary-14"></div></div></div><div class="btn__text tertiary-15"><p class="btn-text-p tertiary-16">View project</p></div><div class="btn__icon-wrap-projects tertiary-17 is-projects"><div class="btn__icon-slot tertiary-18"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 14 14" fill="none" class="svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.86031 0.00280762H14V12.1417H12.8189V2.01904L0.83515 14.0028L0 13.1677L11.9838 1.18389H1.86031V0.00280762Z" fill="currentColor"></path></svg></div></div></a></div></div></div></div></section></div></div></div></div><footer class="section_footer theme-dark"><div class="footer-embed w-embed w-script"><script>
+document.addEventListener("DOMContentLoaded", () => {
+  // Select all footer links
+  const footerLinks = document.querySelectorAll(".footer_link");
+
+  footerLinks.forEach((link) => {
+    // Find the specific child overlay and text wrap elements
+    const overlay = link.querySelector(".footer_link-overlay");
+    const textWrap = link.querySelector(".footer_link-text-wrap");
+    const text = link.querySelector(".footer_link-text"); // Select the text element
+
+    // Create a GSAP timeline for the hover animation
+    const hoverTl = gsap.timeline({ paused: true });
+
+    // Define the hover-on animation in the timeline
+    hoverTl
+      .to(overlay, {
+        height: "100%",
+        duration: 0.5,
+        ease: "power1.inOut",
+      }, 0)
+      .to(
+        textWrap,
+        {
+          x: "0.5rem",
+          duration: 0.6,
+          ease: "power1.inOut",
+        },
+        0
+      );
+
+    // Hover event listener to play the timeline and change text color
+    link.addEventListener("mouseenter", () => {
+      hoverTl.play();
+      text.style.color = "black"; // Change text color to black
+    });
+
+    // Hover off event listener to reverse the timeline and revert text color
+    link.addEventListener("mouseleave", () => {
+      hoverTl.reverse();
+      text.style.color = ""; // Revert to Webflow's default color
+    });
+  });
+});
+
+</script></div><div id="w-node-_6d7c4c62-2d28-8800-f0d2-00b1e1507d74-7da45718" class="footer_top-row"><div id="w-node-_7d67e476-a9ff-2258-ff52-5c867da45719-7da45718" class="footer_info-wrap is-first"><div class="footer_heading-wrap"><div class="logo_wrapper"><div class="logo_icon-wrap"><div class="logo_svg footer w-embed"><svg width="100%" height="100%" viewbox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M231.208 160.513V239.169C231.208 265.652 214.275 288.193 190.651 296.529C184.311 298.776 177.48 300 170.378 300C163.275 300 156.655 298.816 150.395 296.629C150.395 296.629 150.375 296.619 150.335 296.609C150.305 296.599 150.275 296.579 150.225 296.569C149.562 296.288 146.974 295.215 143.203 293.6C135.719 289.868 129.128 284.632 123.812 278.292C119.278 272.895 115.656 266.706 113.209 259.955C110.841 253.474 109.557 246.462 109.557 239.169V81.1041C109.557 80.6828 109.567 80.2715 109.597 79.8602C109.728 77.7235 110.189 75.6671 110.941 73.7611C113.881 66.1874 121.234 60.8306 129.831 60.8306C141.026 60.8306 150.104 69.909 150.104 81.1041V228.677C150.104 239.882 159.183 248.96 170.378 248.96C176.427 248.96 181.864 246.312 185.575 242.099C188.735 238.527 190.651 233.823 190.651 228.677V181.168L164.901 168.047L150.114 160.523L150.255 160.453L190.651 139.868L231.198 160.513H231.208ZM190.651 3.47088C184.311 1.22383 177.48 0 170.378 0C163.275 0 156.444 1.22383 150.104 3.47088L146.142 5.27653L109.557 22.009C114.924 20.103 120.642 18.9393 126.58 18.6284C127.654 18.5682 128.737 18.5381 129.831 18.5381C135.137 18.5381 140.273 19.2202 145.169 20.5042C146.844 20.9356 148.489 21.4372 150.104 22.009C173.728 30.3551 190.651 52.8857 190.651 79.3687V121.16L231.208 100.505V60.8306C231.208 34.3476 214.275 11.807 190.651 3.47088Z" fill="currentColor" fill-opacity="0.4"></path>
+<path d="M190.651 79.3686V121.16L187.06 119.334L178.965 115.211L150.104 100.505V81.1041C150.104 69.909 141.026 60.8305 129.831 60.8305C121.234 60.8305 113.881 66.1873 110.941 73.751C110.189 75.667 109.728 77.7235 109.597 79.8602C109.567 80.2715 109.557 80.6827 109.557 81.1041V239.169C109.557 246.462 110.841 253.474 113.209 259.954C115.656 266.706 119.278 272.895 123.812 278.292C129.128 284.632 135.719 289.868 143.203 293.6C134.967 290.049 121.103 283.829 109.557 277.509C101.532 273.106 95.4228 268.2 91.5105 265C77.7775 253.845 69 236.822 69 217.752V79.3686C69 78.8671 69.01 78.3655 69.0201 77.8739C69.1605 71.8852 70.1737 66.1071 71.9392 60.67C77.7474 42.6436 91.7513 28.2886 109.557 22.0089C114.924 20.1029 120.642 18.9393 126.58 18.6283C127.654 18.5681 128.737 18.538 129.831 18.538C135.137 18.538 140.273 19.2202 145.169 20.5042C146.844 20.9355 148.489 21.4371 150.104 22.0089C173.728 30.3551 190.651 52.8857 190.651 79.3686ZM164.9 168.046L150.114 160.523H150.104V228.676C150.104 239.882 159.183 248.96 170.378 248.96C176.427 248.96 181.864 246.312 185.575 242.099C188.735 238.527 190.651 233.823 190.651 228.676V181.168L164.9 168.046Z" fill="currentColor"></path>
+</svg></div></div><div class="logo-text-footer">unique public interventions // immersive activations</div></div><div class="text-size-small text-color-secondary">Founded by Simon Vaughan and Ben Kearns, we unite decades of combined expertise as visionary creatives and practical masterminds, redefining possibilities in the built environment.</div></div><div class="footer_contact-wrap"><div class="footer_contact-links"><a href="#" class="underline-link is-large">88 London Rd, Brighton BN1 4JF</a><a href="#" class="underline-link is-large">hello@creativegiants.art</a></div><div class="footer_icon-wrap"><a href="https://www.instagram.com/creativegiants.art/" target="_blank" class="footer_social-link w-inline-block"><div class="icon-embed-xxsmall w-embed"><svg width="100%" height="100%" viewbox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_7336_17983)">
+<path d="M7.125 1.89697C9.02738 1.89697 9.253 1.90409 10.0041 1.93853C10.7807 1.97416 11.5805 2.15109 12.1463 2.71694C12.7175 3.28813 12.8891 4.08019 12.9247 4.85919C12.9592 5.61028 12.9663 5.83591 12.9663 7.73828C12.9663 9.64066 12.9592 9.86628 12.9247 10.6174C12.8897 11.3898 12.7086 12.1973 12.1463 12.7596C11.5752 13.3308 10.7837 13.5024 10.0041 13.538C9.253 13.5725 9.02738 13.5796 7.125 13.5796C5.22262 13.5796 4.997 13.5725 4.24591 13.538C3.47938 13.503 2.66119 13.3177 2.10366 12.7596C1.53544 12.1914 1.36088 11.3916 1.32525 10.6174C1.29081 9.86628 1.28369 9.64066 1.28369 7.73828C1.28369 5.83591 1.29081 5.61028 1.32525 4.85919C1.36028 4.08969 1.54316 3.27744 2.10366 2.71694C2.67366 2.14694 3.46869 1.97416 4.24591 1.93853C4.997 1.90409 5.22262 1.89697 7.125 1.89697ZM7.125 0.613281C5.18997 0.613281 4.94712 0.621594 4.18713 0.656031C3.08572 0.7065 1.99203 1.01287 1.19581 1.80909C0.396625 2.60828 0.0932188 3.69959 0.04275 4.80041C0.0083125 5.56041 0 5.80325 0 7.73828C0 9.67331 0.0083125 9.91616 0.04275 10.6762C0.0932188 11.7764 0.400781 12.873 1.19581 13.6675C1.99441 14.4661 3.0875 14.7701 4.18713 14.8205C4.94712 14.855 5.18997 14.8633 7.125 14.8633C9.06003 14.8633 9.30287 14.855 10.0629 14.8205C11.1637 14.7701 12.2586 14.4631 13.0542 13.6675C13.854 12.8677 14.1568 11.777 14.2072 10.6762C14.2417 9.91616 14.25 9.67331 14.25 7.73828C14.25 5.80325 14.2417 5.56041 14.2072 4.80041C14.1568 3.699 13.8498 2.60472 13.0542 1.80909C12.2568 1.01169 11.1607 0.705906 10.0629 0.656031C9.30287 0.621594 9.06003 0.613281 7.125 0.613281Z" fill="currentcolor"></path>
+<path d="M7.12487 4.0791C5.10434 4.0791 3.46619 5.71726 3.46619 7.73779C3.46619 9.75832 5.10434 11.3965 7.12487 11.3965C9.14541 11.3965 10.7836 9.75832 10.7836 7.73779C10.7836 5.71726 9.14541 4.0791 7.12487 4.0791ZM7.12487 10.1128C5.81328 10.1128 4.74987 9.04938 4.74987 7.73779C4.74987 6.4262 5.81328 5.36279 7.12487 5.36279C8.43647 5.36279 9.49988 6.4262 9.49988 7.73779C9.49988 9.04938 8.43647 10.1128 7.12487 10.1128Z" fill="currentcolor"></path>
+<path d="M10.9284 4.78861C11.4006 4.78861 11.7834 4.40582 11.7834 3.93361C11.7834 3.46141 11.4006 3.07861 10.9284 3.07861C10.4562 3.07861 10.0734 3.46141 10.0734 3.93361C10.0734 4.40582 10.4562 4.78861 10.9284 4.78861Z" fill="currentcolor"></path>
+</g>
+<defs>
+<clippath id="clip0_7336_17983">
+<rect width="14.25" height="14.25" fill="white" transform="translate(0 0.613281)"></rect>
+</clippath>
+</defs>
+</svg></div></a><a href="https://www.linkedin.com/company/creative-giants/" target="_blank" class="footer_social-link w-inline-block"><div class="icon-embed-xxsmall w-embed"><svg width="100%" height="100%" viewbox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.6262 12.8523H10.4739V9.48184C10.4739 8.67805 10.4596 7.64377 9.35445 7.64377C8.23357 7.64377 8.06179 8.51915 8.06179 9.42387V12.8523H5.91022V5.92095H7.97661V6.86789H8.00524C8.42682 6.14784 9.20986 5.71767 10.0437 5.74845C12.2254 5.74845 12.6269 7.18354 12.6269 9.04952L12.6262 12.8523ZM3.48165 4.97328C2.79166 4.97328 2.23265 4.41427 2.23265 3.72428C2.23265 3.03429 2.79166 2.47528 3.48165 2.47528C4.17164 2.47528 4.73065 3.03429 4.73065 3.72428C4.73065 4.41427 4.17164 4.97328 3.48165 4.97328ZM4.55743 12.8523H2.403V5.92095H4.55743V12.8523ZM13.6991 0.476888H1.32149C0.736716 0.470446 0.257158 0.939268 0.25 1.52404V13.9525C0.257158 14.538 0.736716 15.0068 1.32149 15.0003H13.6991C14.2853 15.0075 14.767 14.5387 14.7749 13.9525V1.52333C14.7663 0.93712 14.2846 0.468299 13.6991 0.476172" fill="currentcolor"></path>
+</svg></div></a></div></div></div><div id="w-node-_99522fd5-e6f9-ecf6-6821-c8089ae1ca3a-7da45718" class="gradient-line-divide-footer"></div><div id="w-node-_7d67e476-a9ff-2258-ff52-5c867da4572b-7da45718" class="footer_list-wrap"><ul role="list" class="footer_link-list"><li class="footer_link-wrap is-2"><a href="../index.htm" data-wf--button---footer--variant="primary" class="btn is-footer w-inline-block"><div class="btn__bg is_footer"></div><div class="btn__circle-wrap"><div class="btn__rect"></div></div><div class="btn__text"><p class="btn-text-p">Home</p></div><div class="footer_icon-div"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 14 14" fill="none" class="svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.86031 0.00280762H14V12.1417H12.8189V2.01904L0.83515 14.0028L0 13.1677L11.9838 1.18389H1.86031V0.00280762Z" fill="currentColor"></path></svg></div></a></li><li class="footer_link-wrap"><a href="../projects.html" data-wf--button---footer--variant="primary" class="btn is-footer w-inline-block"><div class="btn__bg is_footer"></div><div class="btn__circle-wrap"><div class="btn__rect"></div></div><div class="btn__text"><p class="btn-text-p">Projects</p></div><div class="footer_icon-div"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 14 14" fill="none" class="svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.86031 0.00280762H14V12.1417H12.8189V2.01904L0.83515 14.0028L0 13.1677L11.9838 1.18389H1.86031V0.00280762Z" fill="currentColor"></path></svg></div></a></li><li class="footer_link-wrap is-3"><a href="../process.html" data-wf--button---footer--variant="primary" class="btn is-footer w-inline-block"><div class="btn__bg is_footer"></div><div class="btn__circle-wrap"><div class="btn__rect"></div></div><div class="btn__text"><p class="btn-text-p">What we do</p></div><div class="footer_icon-div"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 14 14" fill="none" class="svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.86031 0.00280762H14V12.1417H12.8189V2.01904L0.83515 14.0028L0 13.1677L11.9838 1.18389H1.86031V0.00280762Z" fill="currentColor"></path></svg></div></a></li><li class="footer_link-wrap is-4"><a href="../news.html" data-wf--button---footer--variant="primary" class="btn is-footer w-inline-block"><div class="btn__bg is_footer"></div><div class="btn__circle-wrap"><div class="btn__rect"></div></div><div class="btn__text"><p class="btn-text-p">Latest News</p></div><div class="footer_icon-div"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 14 14" fill="none" class="svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.86031 0.00280762H14V12.1417H12.8189V2.01904L0.83515 14.0028L0 13.1677L11.9838 1.18389H1.86031V0.00280762Z" fill="currentColor"></path></svg></div></a></li><li class="footer_link-wrap is-last"><a href="../contact.html" data-wf--button---footer--variant="primary" class="btn is-footer w-inline-block"><div class="btn__bg is_footer"></div><div class="btn__circle-wrap"><div class="btn__rect"></div></div><div class="btn__text"><p class="btn-text-p">Get in touch</p></div><div class="footer_icon-div"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 14 14" fill="none" class="svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.86031 0.00280762H14V12.1417H12.8189V2.01904L0.83515 14.0028L0 13.1677L11.9838 1.18389H1.86031V0.00280762Z" fill="currentColor"></path></svg></div></a></li></ul></div><div id="w-node-_97b6d60a-f3ad-4321-b3f0-dc6a33519c40-7da45718" class="gradient-line-divide-footer hide-tablet"></div><div id="w-node-_7d67e476-a9ff-2258-ff52-5c867da4575b-7da45718" class="footer_info-wrap"><div class="footer_heading-wrap max-width-30ch"><h2 class="heading-style-h6">Ready to kick start a discovery session?</h2><div class="text-size-small text-color-secondary">Share your ideas with us, and we’ll begin turning your vision into reality today.</div></div><div class="footer_legal-wrap"><div class="footer-legal">CREATIVE GIANTS ART LTD 2025 ©</div><a href="https://www.phunk.co.uk/" target="_blank" class="underline-link">Website by Phunk</a></div></div></div><div id="w-node-_7d67e476-a9ff-2258-ff52-5c867da45768-7da45718" class="footer_bottom-row"><div class="footer_svg-wrap"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 307 68" fill="none" class="footer-svg"><g clip-path="url(#clip0_7523_419)"><path d="M71.89 0.449951L68.24 67.04H79.15L79.43 52.52H81.7L81.98 67.04H92.92L89.37 0.449951H71.89ZM79.67 43.9799L80.15 18.5499L80.22 10.6H80.84L80.98 18.5499L81.5 43.9799H79.68H79.67Z" fill="currentColor"></path><path d="M122.9 0.449951H112.33V67.04H122.9V0.449951Z" fill="currentColor"></path><path d="M90.9199 9.45995H95.7699V67.04H106.37V9.38995H111.16V0.449951L90.9199 0.519951V9.45995Z" fill="currentColor"></path><path d="M48.1099 31.2499V10.0799C48.1099 6.97994 47.2399 4.59994 45.4899 2.93994C43.7499 1.27994 41.1499 0.439941 37.7099 0.439941H24.9099V67.0299H35.4799V42.4199H36.6799L37.8199 67.0299H48.7299L46.1799 37.4999C47.4599 36.0099 48.1099 33.9199 48.1099 31.2399V31.2499ZM37.2399 31.7999C37.2399 33.4999 36.7899 34.3499 35.8999 34.3499H35.4899V9.45994H35.8999C36.7899 9.45994 37.2399 10.1599 37.2399 11.5599V31.7999Z" fill="currentColor"></path><path d="M60.57 58.02V36.9599H67.83V28.43H60.57V9.45995H68.1V0.449951H50V67.04H68.24V58.02H60.57Z" fill="currentColor"></path><path d="M11.77 0C7.87 0 4.93 0.98 2.96 2.94C0.99 4.9 0 7.97 0 12.15V55.34C0 63.46 3.92 67.52 11.77 67.52C15.51 67.52 18.33 66.65 20.23 64.92C22.13 63.19 23.09 60.46 23.09 56.75V38.96L12.59 33.69V57.81C12.61 58.61 12.34 59.02 11.76 59.02C11.14 59.02 10.83 58.62 10.83 57.81V9.67C10.81 8.87 11.08 8.47 11.66 8.47C12.28 8.47 12.59 8.87 12.59 9.67V31.82L23.09 37.11V10.81C23.09 7 22.16 4.25 20.29 2.55C18.42 0.85 15.58 0 11.77 0Z" fill="currentColor"></path><path d="M252.08 18.2099L253.15 36.5099H252.56L248.57 0.449951H238.42V67.04H248.26V49L247.3 29.6299H247.85L251.94 67.04H261.96V0.449951H252.08V18.2099Z" fill="currentColor"></path><path d="M263.13 9.45995H267.98V67.04H278.58V9.38995H283.36V0.449951L263.13 0.519951V9.45995Z" fill="currentColor"></path><path d="M216.63 0.449951L212.98 67.04H223.89L224.17 52.52H226.44L226.72 67.04H237.66L234.12 0.449951H216.64H216.63ZM224.41 43.9799L224.89 18.5499L224.96 10.6H225.58L225.72 18.5499L226.24 43.9799H224.42H224.41Z" fill="currentColor"></path><path d="M297.54 25.94L306.93 30.67V9.19001C306.93 6.23001 305.95 3.96001 304.01 2.38001C302.06 0.80001 299.27 0.0100098 295.65 0.0100098C292.03 0.0100098 288.96 0.90001 286.93 2.69001C284.9 4.48001 284.36 6.99001 284.36 10.23V25.82L284.29 31.97L294.79 37.25H294.83C296 37.86 296.58 38.85 296.58 40.21V58.04C296.58 58.75 296.27 59.11 295.65 59.11C295.03 59.11 294.69 58.71 294.69 57.91V39.08L284.19 33.79V58.4C284.17 64.5 288.01 67.55 295.72 67.55C299.39 67.55 302.26 66.62 304.32 64.76C306.38 62.9 306.84 60.29 306.84 56.91V37.88L306.93 32.48L296.43 27.2L296.15 27.05C295.16 26.43 294.67 25.44 294.67 24.09V9.57001C294.65 8.77001 294.95 8.37001 295.56 8.37001C296.13 8.37001 296.42 8.77001 296.42 9.57001V23.95C296.42 25.29 297.52 25.97 297.52 25.97L297.54 25.94Z" fill="currentColor"></path><path d="M158.92 36.9599H166.18V28.43H158.92V9.45995H166.46V0.449951H148.36V67.04H166.6V58.02H158.92V36.9599Z" fill="currentColor"></path><path d="M212.3 0.449951H201.73V67.04H212.3V0.449951Z" fill="currentColor"></path><path d="M136.17 42.5L136.11 53.79H135.42L135.35 42.5L134.35 0.449951H123.58L127.5 67.04H143.64L147.6 0.449951H136.83L136.17 42.5Z" fill="currentColor"></path><path d="M188.59 0C184.55 0 181.56 0.97 179.61 2.91C177.66 4.85 176.69 7.93 176.69 12.15V57.37C176.69 60.81 177.32 63.36 178.58 65.03C179.84 66.69 181.6 67.53 183.84 67.53C185.68 67.53 187.06 67.11 187.99 66.27C188.92 65.43 189.61 64.05 190.07 62.12H190.55L191.76 67.04H199.78V37.04L188.36 31.32V40.38L189.29 40.85V57.89C189.29 58.78 188.96 59.23 188.31 59.23C187.66 59.23 187.33 58.85 187.33 58.09V9.67C187.31 8.87 187.58 8.47 188.16 8.47C188.78 8.47 189.09 8.87 189.09 9.67V29.9L199.79 35.19V9.88C199.81 3.3 196.08 0 188.61 0H188.59Z" fill="currentColor"></path></g></svg><div class="footer-border-top hide"></div><div class="footer-border-bottom hide"></div><div class="footer-border-left hide"></div><div class="footer-border-right hide"></div></div><div class="footer_background-blur"></div></div></footer></main></div><script src="../js/jquery-3.5.1.min.dc5e7f18c8.js?site=678fc13a6195245eefbb1f34" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="../678fc13a6195245eefbb1f34/js/webflow.df2fde40.f8fb8d675d17bb5e.js" type="text/javascript"></script><script src="../npm/gsap%403.12.7/dist/gsap.min.js"></script>
+<script src="../npm/gsap%403.12.7/dist/Flip.min.js"></script>
+<script src="../npm/gsap%403.12.7/dist/ScrollTrigger.min.js"></script>
+
+<script src="../gh/studio-freight/lenis%401.0.23/bundled/lenis.min.js"></script> 
+<script src="../split-type%400.3.4/umd/index.min.js"></script>
+
+<script>
+pageFunctions.executeFunctions();
+</script>
+
+
+
+<script>
+// page load
+let tl = gsap.timeline({
+  onComplete: () => {
+    document.dispatchEvent(new CustomEvent("pageIntroFinished"));
+  },
+});
+
+// Add a delay before the animation starts
+tl.to(".transition_column", {
+  yPercent: -100,
+  stagger: 0,
+  delay: 0.6 // delay in seconds
+});
+
+tl.set(".transition_wrap", { display: "none" });
+
+
+// link click
+$("a:not(.excluded-class)").on("click", function (e) {
+  let currentUrl = $(this).attr("href");
+  if (
+    $(this).prop("hostname") === window.location.host &&
+    !currentUrl.includes("#") &&
+    $(this).attr("target") !== "_blank"
+  ) {
+    e.preventDefault();
+    lenis.stop();
+    let tl = gsap.timeline({
+      onComplete: () => (window.location.href = currentUrl),
+    });
+    tl.set(".transition_wrap", { display: "flex" });
+    tl.fromTo(
+      ".transition_column",
+      { yPercent: 100 },
+      { yPercent: 0, stagger: 0.1 }
+    );
+  }
+});
+// On Back Button Tap
+window.onpageshow = function (event) {
+  if (event.persisted) window.location.reload();
+};
+
+</script>
+
+
+
+<script>
+
+//smooth scroll
+let lenis = new Lenis({
+  lerp: 0.1,
+  wheelMultiplier: 0.7,
+  gestureOrientation: "vertical",
+  normalizeWheel: false,
+  smoothTouch: false,
+});
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+requestAnimationFrame(raf);
+$("[data-lenis-start]").on("click", function () {
+  lenis.start();
+});
+$("[data-lenis-stop]").on("click", function () {
+  lenis.stop();
+});
+$("[data-lenis-toggle]").on("click", function () {
+  $(this).toggleClass("stop-scroll");
+  if ($(this).hasClass("stop-scroll")) {
+    lenis.stop();
+  } else {
+    lenis.start();
+  }
+});
+</script>
+
+
+
+<script>
+// Text animation
+window.addEventListener("DOMContentLoaded", (event) => {
+  setTimeout(() => {
+    $("[js-line-animation]").each(function (index) {
+      gsap.set($(this), { autoAlpha: 1 });
+      let textEl = $(this);
+      let textContent = $(this).text();
+      let tl;
+
+      // Get delay from attribute or default to 0
+      let delayValue = parseFloat($(this).attr("data-delay")) || 0;
+
+      function splitText() {
+        new SplitType(textEl, { types: "lines", tagName: "span" });
+        textEl.find(".line").each(function (index) {
+          let lineContent = $(this).html();
+          $(this).html("");
+          $(this).append(`<span class="line-inner" style="display: block;">${lineContent}</span>`);
+        });
+
+        tl = gsap.timeline({
+          scrollTrigger: {
+            trigger: textEl,
+            start: "top 75%",
+            end: "bottom 75%"
+          }
+        });
+
+        tl.fromTo(
+          textEl.find(".line-inner"),
+          { yPercent: 100 },
+          { 
+            yPercent: 0, 
+            duration: 0.6, 
+            stagger: { amount: 0.4, ease: "power1.out" },
+            delay: delayValue // Apply delay from attribute
+          }
+        );
+      }
+
+      splitText();
+
+      let windowWidth = window.innerWidth;
+      window.addEventListener("resize", function () {
+        if (windowWidth !== window.innerWidth) {
+          windowWidth = window.innerWidth;
+          tl.kill();
+          textEl.text(textContent);
+          splitText();
+        }
+      });
+    });
+  }, 700);
+});
+</script>
+
+<script>
+//fade up
+
+window.addEventListener("DOMContentLoaded", (event) => {
+  setTimeout(() => {
+    $("[data-fade]").each(function () {
+      let wrap = $(this);
+      
+      // Get delay from attribute or default to 0
+      let delayValue = parseFloat(wrap.attr("data-delay")) || 0;
+
+      // Get custom start Y percentage or default to 20
+      let yStartValue = parseFloat(wrap.attr("data-y")) || 20;
+
+      // Set initial visibility
+      gsap.set(wrap, { visibility: "visible" });
+
+      gsap.fromTo(
+        wrap,
+        { opacity: 0, yPercent: yStartValue }, // Customizable start Y position
+        { 
+          opacity: 1, 
+          yPercent: 0, // Moves to normal position
+          duration: 0.8, 
+          ease: "power2.out",
+          delay: delayValue, // Apply delay from attribute
+          scrollTrigger: {
+            trigger: wrap,
+            start: "top 80%", // Adjust when the animation starts
+            toggleActions: "play none none none", // Only plays once
+          }
+        }
+      );
+    });
+  }, 700);
+});
+
+</script>
+
+<script>
+//fade up children
+
+window.addEventListener("DOMContentLoaded", (event) => {
+  setTimeout(() => {
+    $("[data-fade-children]").each(function () {
+      let parent = $(this);
+      let children = parent.children(); // Select all direct children
+
+      // Get delay from attribute or default to 0
+      let delayValue = parseFloat(parent.attr("data-fade-children")) || 0;
+
+      // Get custom start Y percentage or default to 20
+      let yStartValue = parseFloat(parent.attr("data-y")) || 20;
+
+      // Set initial visibility for children
+      gsap.set(children, { visibility: "visible" });
+
+      gsap.fromTo(
+        children,
+        { opacity: 0, yPercent: yStartValue }, // Customizable start Y position
+        { 
+          opacity: 1, 
+          yPercent: 0, // Moves to normal position
+          duration: 0.8, 
+          ease: "power2.out",
+          stagger: 0.15, // Stagger each child
+          delay: delayValue, // Apply delay from attribute
+          scrollTrigger: {
+            trigger: parent,
+            start: "top 80%", // Adjust when the animation starts
+            toggleActions: "play none none none", // Only plays once
+          }
+        }
+      );
+    });
+  }, 700);
+});
+
+
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const currentSlug = window.location.pathname.split("/").filter(Boolean).pop();
+    const items = Array.from(document.querySelectorAll(".next-project_cms-item"));
+
+    // Check for data-slug presence
+    if (!items.length || !items[0].hasAttribute("data-slug")) {
+      console.warn("No valid .next-project_cms-item with data-slug found.");
+      return;
+    }
+
+    const slugs = items.map(item => item.dataset.slug);
+    const currentIndex = slugs.indexOf(currentSlug);
+
+    if (currentIndex === -1) {
+      console.warn("Current slug not found in CMS list:", currentSlug);
+      return;
+    }
+
+    const nextIndex = (currentIndex + 1) % items.length;
+
+    items.forEach((item, index) => {
+      item.style.display = (index === nextIndex) ? "" : "none";
+    });
+  });
+</script>
+
+
+
+
+
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  document.querySelectorAll("[data-scale-effect]").forEach((image) => {
+    gsap.from(image, {
+      scale: 1.25,
+      duration: 2,
+      ease: "expo.out",
+      scrollTrigger: {
+        trigger: image,
+        start: "top 80%", // Adjust this value as needed
+        toggleActions: "play none none reverse",
+      },
+    });
+  });
+</script></body></html>
